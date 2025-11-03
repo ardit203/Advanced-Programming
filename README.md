@@ -31,4 +31,4 @@ AdvancedProgramming/
 
 ## 📚 Notes
 All materials in this repository are part of my learning process and are meant for educational use only.
-Feel free to check out the code, learn from it, and experiment — **but always write your own solutions!** ✨
+Feel free to check out the code, learn from it, and experiment — **but always write your own code!** ✨
