@@ -23,7 +23,7 @@ AdvancedProgramming/
 ## 🚀 How to Use
 1. Clone the repository:
     ```
-   git clone https://github.com/<your-username>/AdvancedProgramming.git
+   git clone https://github.com/ardit203/Advanced-Programming.git
    ```
 2. Open the project in your preferred IDE (IntelliJ IDEA, Eclipse, etc.).
 3. Explore the folders to find code samples, labs, or project files.
