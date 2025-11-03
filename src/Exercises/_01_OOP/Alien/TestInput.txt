@@ -1,0 +1,11 @@
+4
+4
+50 Monster
+66 Scary
+100 UFO
+0 DyingBreed
+
+--Explanation--
+aliensCapacity
+numAliens
+health alienName

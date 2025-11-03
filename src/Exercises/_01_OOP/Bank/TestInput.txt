@@ -1,0 +1,11 @@
+NLB 5
+4
+John 3500
+Smith 300
+Sara 500
+Ardit 100
+
+--Explanation--
+BankName maxAccounts
+numAccounts
+accountName balance
