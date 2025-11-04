@@ -1,0 +1,42 @@
+documentation
+
+data types
+
+casting and assignments
+
+classes
+
+enums
+
+static methods and static variables
+
+mutable and immutable
+
+Strings
+
+Wrapper classes
+
+arrays
+
+Inheritance -- (virtual methods)
+
+binding
+
+....
+
+Object class
+
+getClass vs instanceof
+
+upcasting vs downcasting
+
+clone
+
+abstract
+
+interfaces
+
+comparable, serializable, clonable
+
+
+
