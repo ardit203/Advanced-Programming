@@ -1,0 +1,291 @@
+INPUT:
+40
+Interstellar
+Sci-Fi
+2014
+10 10 9 8 9 10 9 9 8 10 10 9 9 10 10 9 10
+Inception
+Sci-Fi
+2010
+9 10 8 9 10 9 10 8 9 9 10 9 10 9 8 10 9
+The Dark Knight
+Action
+2008
+10 9 9 10 8 10 9 9 9 10 10 8 9 10 10 9 9
+The Shawshank Redemption
+Drama
+1994
+10 10 10 9 10 10 9 10 9 9 10 10 10 10 10 9 10
+Pulp Fiction
+Crime
+1994
+9 10 9 10 9 10 9 9 10 9 9 10 10 9 9 10 9
+Fight Club
+Drama
+1999
+10 9 8 9 10 9 9 8 9 9 10 9 9 8 9 9 10
+Forrest Gump
+Drama
+1994
+10 10 9 8 9 9 10 9 9 10 9 10 9 8 9 10 9
+The Matrix
+Sci-Fi
+1999
+10 10 9 9 10 10 9 9 10 9 9 10 9 10 9 9 10
+The Godfather
+Crime
+1972
+10 10 10 10 9 10 10 10 10 9 10 10 10 10 10 10 10
+The Godfather Part II
+Crime
+1974
+10 9 10 10 9 9 10 9 10 10 9 10 9 10 10 9 10
+The Lord of the Rings: The Fellowship of the Ring
+Fantasy
+2001
+10 9 9 10 9 10 9 10 9 9 10 9 9 10 9 10 9
+The Lord of the Rings: The Two Towers
+Fantasy
+2002
+10 9 9 10 9 10 9 9 9 10 9 10 9 9 10 9 9
+The Lord of the Rings: The Return of the King
+Fantasy
+2003
+10 10 10 10 10 10 9 10 10 10 10 10 10 9 10 10 10
+The Prestige
+Mystery
+2006
+9 10 9 8 9 9 9 10 9 8 9 9 9 10 9 9 9
+Gladiator
+Action
+2000
+9 10 8 8 9 9 9 8 10 9 9 8 9 9 8 9 9
+Titanic
+Romance
+1997
+8 8 9 9 10 9 8 9 9 8 9 9 9 8 9 9 9
+Avatar
+Sci-Fi
+2009
+9 8 8 9 9 8 9 8 9 9 8 9 9 8 9 8 9
+Whiplash
+Drama
+2014
+10 10 9 10 10 9 10 9 10 9 10 9 9 10 10 9 10
+Joker
+Crime
+2019
+9 10 9 8 9 9 10 9 9 8 9 9 9 9 8 9 9
+Parasite
+Thriller
+2019
+10 10 9 9 10 10 9 9 10 9 9 10 9 10 9 9 10
+1917
+War
+2019
+9 9 8 9 9 9 9 8 9 9 8 9 9 9 8 9 9
+Saving Private Ryan
+War
+1998
+10 10 9 9 10 9 10 9 9 10 9 10 9 9 10 9 10
+The Green Mile
+Drama
+1999
+10 9 10 10 9 10 9 10 10 9 10 10 9 10 10 9 10
+Se7en
+Crime
+1995
+9 10 9 9 9 9 8 9 9 10 9 9 8 9 9 9 9
+Goodfellas
+Crime
+1990
+10 9 10 9 10 9 10 9 9 10 9 10 9 9 10 9 10
+The Silence of the Lambs
+Thriller
+1991
+10 9 10 10 9 10 9 10 9 10 10 9 9 10 10 9 10
+The Departed
+Crime
+2006
+9 9 10 9 9 9 8 9 9 9 10 9 9 9 8 9 9
+The Wolf of Wall Street
+Comedy
+2013
+8 9 9 9 9 9 8 9 9 9 9 9 9 8 9 9 9
+Shutter Island
+Mystery
+2010
+9 8 9 8 9 9 8 9 9 8 9 9 9 8 9 8 9
+Django Unchained
+Western
+2012
+10 9 10 9 10 9 10 9 9 10 9 10 9 9 10 9 10
+Inglourious Basterds
+War
+2009
+10 9 9 10 9 9 10 9 10 9 9 10 9 9 9 9 10
+Mad Max: Fury Road
+Action
+2015
+10 9 9 10 10 9 10 9 10 9 9 9 10 9 9 9 10
+The Social Network
+Drama
+2010
+8 9 8 9 8 9 8 9 9 8 9 8 9 8 9 8 9
+Her
+Romance
+2013
+9 9 8 8 9 9 8 9 9 8 9 8 9 8 9 9 9
+Blade Runner 2049
+Sci-Fi
+2017
+10 9 9 9 10 9 9 10 9 9 9 9 10 9 9 9 9
+Arrival
+Sci-Fi
+2016
+9 10 9 8 9 9 9 9 8 9 9 9 9 8 9 9 9
+Gone Girl
+Thriller
+2014
+9 9 8 9 9 8 9 9 9 8 9 9 9 8 9 9 9
+Inside Out
+Animation
+2015
+10 9 9 9 10 9 9 9 9 9 9 10 9 9 9 9 9
+Coco
+Animation
+2017
+10 10 9 10 10 9 10 9 10 9 9 10 10 9 9 10 10
+Man of Steel
+Action
+2013
+7 8 7 8 7 7 8 7 7 8 8 7 8 8 7 8 8
+
+
+
+OUTPUT:
+SORTING BY RATING
+The Godfather, Crime, 1972, 9.88
+The Lord of the Rings: The Return of the King, Fantasy, 2003, 9.88
+The Shawshank Redemption, Drama, 1994, 9.71
+The Green Mile, Drama, 1999, 9.65
+Coco, Animation, 2017, 9.59
+The Godfather Part II, Crime, 1974, 9.59
+The Silence of the Lambs, Thriller, 1991, 9.59
+Whiplash, Drama, 2014, 9.59
+Django Unchained, Western, 2012, 9.47
+Goodfellas, Crime, 1990, 9.47
+Parasite, Thriller, 2019, 9.47
+Saving Private Ryan, War, 1998, 9.47
+The Matrix, Sci-Fi, 1999, 9.47
+Mad Max: Fury Road, Action, 2015, 9.41
+Pulp Fiction, Crime, 1994, 9.41
+The Lord of the Rings: The Fellowship of the Ring, Fantasy, 2001, 9.41
+Inglourious Basterds, War, 2009, 9.35
+Interstellar, Sci-Fi, 2014, 9.35
+The Lord of the Rings: The Two Towers, Fantasy, 2002, 9.35
+The Dark Knight, Action, 2008, 9.29
+Blade Runner 2049, Sci-Fi, 2017, 9.24
+Forrest Gump, Drama, 1994, 9.24
+Inception, Sci-Fi, 2010, 9.18
+Inside Out, Animation, 2015, 9.18
+Fight Club, Drama, 1999, 9.06
+The Prestige, Mystery, 2006, 9.06
+Se7en, Crime, 1995, 9.00
+The Departed, Crime, 2006, 9.00
+Joker, Crime, 2019, 8.94
+Arrival, Sci-Fi, 2016, 8.88
+Gladiator, Action, 2000, 8.82
+The Wolf of Wall Street, Comedy, 2013, 8.82
+1917, War, 2019, 8.76
+Gone Girl, Thriller, 2014, 8.76
+Titanic, Romance, 1997, 8.76
+Her, Romance, 2013, 8.65
+Shutter Island, Mystery, 2010, 8.65
+Avatar, Sci-Fi, 2009, 8.59
+The Social Network, Drama, 2010, 8.53
+Man of Steel, Action, 2013, 7.53
+
+SORTING BY GENRE
+Gladiator, Action, 2000, 8.82
+Mad Max: Fury Road, Action, 2015, 9.41
+Man of Steel, Action, 2013, 7.53
+The Dark Knight, Action, 2008, 9.29
+Coco, Animation, 2017, 9.59
+Inside Out, Animation, 2015, 9.18
+The Wolf of Wall Street, Comedy, 2013, 8.82
+Goodfellas, Crime, 1990, 9.47
+Joker, Crime, 2019, 8.94
+Pulp Fiction, Crime, 1994, 9.41
+Se7en, Crime, 1995, 9.00
+The Departed, Crime, 2006, 9.00
+The Godfather, Crime, 1972, 9.88
+The Godfather Part II, Crime, 1974, 9.59
+Fight Club, Drama, 1999, 9.06
+Forrest Gump, Drama, 1994, 9.24
+The Green Mile, Drama, 1999, 9.65
+The Shawshank Redemption, Drama, 1994, 9.71
+The Social Network, Drama, 2010, 8.53
+Whiplash, Drama, 2014, 9.59
+The Lord of the Rings: The Fellowship of the Ring, Fantasy, 2001, 9.41
+The Lord of the Rings: The Return of the King, Fantasy, 2003, 9.88
+The Lord of the Rings: The Two Towers, Fantasy, 2002, 9.35
+Shutter Island, Mystery, 2010, 8.65
+The Prestige, Mystery, 2006, 9.06
+Her, Romance, 2013, 8.65
+Titanic, Romance, 1997, 8.76
+Arrival, Sci-Fi, 2016, 8.88
+Avatar, Sci-Fi, 2009, 8.59
+Blade Runner 2049, Sci-Fi, 2017, 9.24
+Inception, Sci-Fi, 2010, 9.18
+Interstellar, Sci-Fi, 2014, 9.35
+The Matrix, Sci-Fi, 1999, 9.47
+Gone Girl, Thriller, 2014, 8.76
+Parasite, Thriller, 2019, 9.47
+The Silence of the Lambs, Thriller, 1991, 9.59
+1917, War, 2019, 8.76
+Inglourious Basterds, War, 2009, 9.35
+Saving Private Ryan, War, 1998, 9.47
+Django Unchained, Western, 2012, 9.47
+
+SORTING BY YEAR
+The Godfather, Crime, 1972, 9.88
+The Godfather Part II, Crime, 1974, 9.59
+Goodfellas, Crime, 1990, 9.47
+The Silence of the Lambs, Thriller, 1991, 9.59
+Forrest Gump, Drama, 1994, 9.24
+Pulp Fiction, Crime, 1994, 9.41
+The Shawshank Redemption, Drama, 1994, 9.71
+Se7en, Crime, 1995, 9.00
+Titanic, Romance, 1997, 8.76
+Saving Private Ryan, War, 1998, 9.47
+Fight Club, Drama, 1999, 9.06
+The Green Mile, Drama, 1999, 9.65
+The Matrix, Sci-Fi, 1999, 9.47
+Gladiator, Action, 2000, 8.82
+The Lord of the Rings: The Fellowship of the Ring, Fantasy, 2001, 9.41
+The Lord of the Rings: The Two Towers, Fantasy, 2002, 9.35
+The Lord of the Rings: The Return of the King, Fantasy, 2003, 9.88
+The Departed, Crime, 2006, 9.00
+The Prestige, Mystery, 2006, 9.06
+The Dark Knight, Action, 2008, 9.29
+Avatar, Sci-Fi, 2009, 8.59
+Inglourious Basterds, War, 2009, 9.35
+Inception, Sci-Fi, 2010, 9.18
+Shutter Island, Mystery, 2010, 8.65
+The Social Network, Drama, 2010, 8.53
+Django Unchained, Western, 2012, 9.47
+Her, Romance, 2013, 8.65
+Man of Steel, Action, 2013, 7.53
+The Wolf of Wall Street, Comedy, 2013, 8.82
+Gone Girl, Thriller, 2014, 8.76
+Interstellar, Sci-Fi, 2014, 9.35
+Whiplash, Drama, 2014, 9.59
+Inside Out, Animation, 2015, 9.18
+Mad Max: Fury Road, Action, 2015, 9.41
+Arrival, Sci-Fi, 2016, 8.88
+Blade Runner 2049, Sci-Fi, 2017, 9.24
+Coco, Animation, 2017, 9.59
+1917, War, 2019, 8.76
+Joker, Crime, 2019, 8.94
+Parasite, Thriller, 2019, 9.47

@@ -1,0 +1,49 @@
+INPUT:
+1;Student A;4.0;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+2;Student B;4.0;Mother Tongue;5;Mathematics;5;Physics;5;Electronics;5;KTI
+3;Student C;4.0;Mother Tongue;5;English;5;Biology;5;Chemistry;5;OM
+
+
+
+OUTPUT:
+Faculty: FINKI
+Subjects: [Mother Tongue, Mathematics, Informatics]
+Study Programmes:
+Name: Software Engineering
+Public Quota:
+Id: 1, Name: Student A, GPA: 4.0 - 84.0
+Private Quota:
+Rejected:
+
+Name: Information Technology
+Public Quota:
+Private Quota:
+Rejected:
+
+Faculty: FEIT
+Subjects: [Mother Tongue, Mathematics, Physics, Electronics]
+Study Programmes:
+Name: Computer Technologies and Engineering
+Public Quota:
+Id: 2, Name: Student B, GPA: 4.0 - 88.0
+Private Quota:
+Rejected:
+
+Name: Electro-energetic Systems
+Public Quota:
+Private Quota:
+Rejected:
+
+Faculty: MEDFAK
+Subjects: [Mother Tongue, English, Mathematics, Biology, Chemistry]
+Study Programmes:
+Name: General Medicine
+Public Quota:
+Id: 3, Name: Student C, GPA: 4.0 - 88.0
+Private Quota:
+Rejected:
+
+Name: Nursing
+Public Quota:
+Private Quota:
+Rejected:

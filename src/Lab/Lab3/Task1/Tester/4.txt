@@ -1,0 +1,291 @@
+INPUT:
+40
+Everything Everywhere All at Once
+Sci-Fi
+2022
+10 9 10 9 10 9 9 10 9 9 10 9 10 9 9 10 9
+The Banshees of Inisherin
+Drama
+2022
+9 9 8 8 9 9 9 9 8 8 9 8 9 8 9 9 8
+The Whale
+Drama
+2022
+9 10 9 8 9 9 10 8 9 9 9 9 9 8 9 9 10
+Barbie
+Comedy
+2023
+8 8 9 8 9 8 9 9 8 8 9 8 8 8 9 9 8
+Oppenheimer
+Biography
+2023
+10 10 9 10 10 9 10 9 10 10 9 10 9 9 10 10 9
+Poor Things
+Fantasy
+2023
+9 10 9 8 9 9 9 8 9 9 9 9 9 8 9 9 9
+Dune
+Sci-Fi
+2021
+10 9 9 10 9 10 9 9 10 9 9 10 9 9 10 9 9
+Dune: Part Two
+Sci-Fi
+2024
+10 10 9 10 10 9 10 10 9 10 10 9 10 9 10 10 9
+Nope
+Horror
+2022
+8 8 7 8 8 8 7 8 8 7 8 8 7 8 8 8 7
+Get Out
+Horror
+2017
+10 9 9 10 9 9 10 9 9 10 9 9 10 9 9 10 9
+Us
+Horror
+2019
+9 8 8 9 8 9 8 8 9 8 9 8 8 9 8 9 8
+Spider-Man: Across the Spider-Verse
+Animation
+2023
+10 10 9 10 10 9 10 10 10 9 10 10 9 10 9 10 10
+Soul
+Animation
+2020
+10 9 10 9 10 9 9 10 9 9 10 9 10 9 9 10 9
+Luca
+Animation
+2021
+9 8 9 8 9 8 9 8 9 8 9 8 9 8 9 8 9
+Turning Red
+Animation
+2022
+8 8 7 8 8 8 7 8 8 7 8 8 7 8 8 8 7
+The Super Mario Bros. Movie
+Animation
+2023
+7 8 7 8 7 8 7 8 7 8 7 8 7 8 7 8 7
+John Wick
+Action
+2014
+9 9 8 9 9 8 9 8 9 8 9 9 8 9 9 8 9
+John Wick: Chapter 2
+Action
+2017
+9 8 9 9 8 9 9 8 9 8 9 9 8 9 9 8 9
+John Wick: Chapter 3 – Parabellum
+Action
+2019
+8 9 8 9 8 9 8 9 8 9 8 9 8 9 8 9 8
+John Wick: Chapter 4
+Action
+2023
+9 9 9 8 9 9 9 9 8 9 9 9 8 9 9 9 9
+Tenet
+Sci-Fi
+2020
+8 8 9 8 8 8 9 8 8 8 9 8 8 9 8 8 8
+Top Gun: Maverick
+Action
+2022
+10 9 9 9 10 9 9 9 9 9 10 9 9 9 10 9 9
+Avatar: The Way of Water
+Sci-Fi
+2022
+9 8 9 9 9 9 8 9 9 8 9 9 9 8 9 9 9
+The Batman
+Action
+2022
+9 9 9 9 9 8 9 9 9 8 9 9 9 8 9 9 9
+Guardians of the Galaxy Vol. 3
+Action
+2023
+10 9 9 9 9 9 9 9 8 9 9 9 8 9 9 9 9
+The Marvels
+Action
+2023
+7 7 6 7 7 7 6 7 7 7 6 7 6 7 7 7 6
+Doctor Strange in the Multiverse of Madness
+Action
+2022
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
+Black Panther: Wakanda Forever
+Action
+2022
+9 9 9 8 9 9 9 9 8 9 9 9 8 9 9 8 9
+Ant-Man and the Wasp: Quantumania
+Action
+2023
+7 7 8 7 7 7 8 7 7 7 8 7 7 7 8 7 7
+The Flash
+Action
+2023
+7 6 7 6 7 6 7 6 7 6 6 7 6 7 6 7 6
+The Suicide Squad
+Action
+2021
+8 9 8 8 8 8 9 8 8 8 9 8 8 8 8 8 8
+Birds of Prey
+Action
+2020
+7 8 7 8 7 8 7 7 8 7 7 8 7 7 8 7 7
+Shazam!
+Action
+2019
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
+Shazam! Fury of the Gods
+Action
+2023
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7
+Joker
+Crime
+2019
+10 9 10 9 10 9 9 10 9 9 10 9 10 9 9 10 9
+The Irishman
+Crime
+2019
+9 9 8 9 9 9 9 8 9 9 8 9 9 8 9 9 8
+Knives Out
+Mystery
+2019
+9 9 9 8 9 9 9 9 8 9 9 8 9 9 9 8 9
+Glass Onion: A Knives Out Mystery
+Mystery
+2022
+9 9 8 9 9 9 9 9 8 9 9 8 9 9 9 9 9
+The Menu
+Thriller
+2022
+8 8 9 8 8 8 9 8 8 8 9 8 8 8 9 8 8
+Saltburn
+Thriller
+2023
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
+
+
+
+OUTPUT:
+SORTING BY RATING
+Spider-Man: Across the Spider-Verse, Animation, 2023, 9.71
+Dune: Part Two, Sci-Fi, 2024, 9.65
+Oppenheimer, Biography, 2023, 9.59
+Everything Everywhere All at Once, Sci-Fi, 2022, 9.41
+Joker, Crime, 2019, 9.41
+Soul, Animation, 2020, 9.41
+Dune, Sci-Fi, 2021, 9.35
+Get Out, Horror, 2017, 9.35
+Top Gun: Maverick, Action, 2022, 9.24
+The Whale, Drama, 2022, 9.00
+Guardians of the Galaxy Vol. 3, Action, 2023, 8.94
+Poor Things, Fantasy, 2023, 8.88
+Glass Onion: A Knives Out Mystery, Mystery, 2022, 8.82
+John Wick: Chapter 4, Action, 2023, 8.82
+The Batman, Action, 2022, 8.82
+Avatar: The Way of Water, Sci-Fi, 2022, 8.76
+Black Panther: Wakanda Forever, Action, 2022, 8.76
+Knives Out, Mystery, 2019, 8.76
+The Irishman, Crime, 2019, 8.71
+John Wick, Action, 2014, 8.65
+John Wick: Chapter 2, Action, 2017, 8.65
+The Banshees of Inisherin, Drama, 2022, 8.59
+Luca, Animation, 2021, 8.53
+John Wick: Chapter 3 – Parabellum, Action, 2019, 8.47
+Barbie, Comedy, 2023, 8.41
+Us, Horror, 2019, 8.41
+Tenet, Sci-Fi, 2020, 8.24
+The Menu, Thriller, 2022, 8.24
+The Suicide Squad, Action, 2021, 8.18
+Doctor Strange in the Multiverse of Madness, Action, 2022, 8.00
+Saltburn, Thriller, 2023, 8.00
+Shazam!, Action, 2019, 8.00
+Nope, Horror, 2022, 7.71
+Turning Red, Animation, 2022, 7.71
+The Super Mario Bros. Movie, Animation, 2023, 7.47
+Birds of Prey, Action, 2020, 7.35
+Ant-Man and the Wasp: Quantumania, Action, 2023, 7.24
+Shazam! Fury of the Gods, Action, 2023, 7.00
+The Marvels, Action, 2023, 6.71
+The Flash, Action, 2023, 6.47
+
+SORTING BY GENRE
+Ant-Man and the Wasp: Quantumania, Action, 2023, 7.24
+Birds of Prey, Action, 2020, 7.35
+Black Panther: Wakanda Forever, Action, 2022, 8.76
+Doctor Strange in the Multiverse of Madness, Action, 2022, 8.00
+Guardians of the Galaxy Vol. 3, Action, 2023, 8.94
+John Wick, Action, 2014, 8.65
+John Wick: Chapter 2, Action, 2017, 8.65
+John Wick: Chapter 3 – Parabellum, Action, 2019, 8.47
+John Wick: Chapter 4, Action, 2023, 8.82
+Shazam!, Action, 2019, 8.00
+Shazam! Fury of the Gods, Action, 2023, 7.00
+The Batman, Action, 2022, 8.82
+The Flash, Action, 2023, 6.47
+The Marvels, Action, 2023, 6.71
+The Suicide Squad, Action, 2021, 8.18
+Top Gun: Maverick, Action, 2022, 9.24
+Luca, Animation, 2021, 8.53
+Soul, Animation, 2020, 9.41
+Spider-Man: Across the Spider-Verse, Animation, 2023, 9.71
+The Super Mario Bros. Movie, Animation, 2023, 7.47
+Turning Red, Animation, 2022, 7.71
+Oppenheimer, Biography, 2023, 9.59
+Barbie, Comedy, 2023, 8.41
+Joker, Crime, 2019, 9.41
+The Irishman, Crime, 2019, 8.71
+The Banshees of Inisherin, Drama, 2022, 8.59
+The Whale, Drama, 2022, 9.00
+Poor Things, Fantasy, 2023, 8.88
+Get Out, Horror, 2017, 9.35
+Nope, Horror, 2022, 7.71
+Us, Horror, 2019, 8.41
+Glass Onion: A Knives Out Mystery, Mystery, 2022, 8.82
+Knives Out, Mystery, 2019, 8.76
+Avatar: The Way of Water, Sci-Fi, 2022, 8.76
+Dune, Sci-Fi, 2021, 9.35
+Dune: Part Two, Sci-Fi, 2024, 9.65
+Everything Everywhere All at Once, Sci-Fi, 2022, 9.41
+Tenet, Sci-Fi, 2020, 8.24
+Saltburn, Thriller, 2023, 8.00
+The Menu, Thriller, 2022, 8.24
+
+SORTING BY YEAR
+John Wick, Action, 2014, 8.65
+Get Out, Horror, 2017, 9.35
+John Wick: Chapter 2, Action, 2017, 8.65
+John Wick: Chapter 3 – Parabellum, Action, 2019, 8.47
+Joker, Crime, 2019, 9.41
+Knives Out, Mystery, 2019, 8.76
+Shazam!, Action, 2019, 8.00
+The Irishman, Crime, 2019, 8.71
+Us, Horror, 2019, 8.41
+Birds of Prey, Action, 2020, 7.35
+Soul, Animation, 2020, 9.41
+Tenet, Sci-Fi, 2020, 8.24
+Dune, Sci-Fi, 2021, 9.35
+Luca, Animation, 2021, 8.53
+The Suicide Squad, Action, 2021, 8.18
+Avatar: The Way of Water, Sci-Fi, 2022, 8.76
+Black Panther: Wakanda Forever, Action, 2022, 8.76
+Doctor Strange in the Multiverse of Madness, Action, 2022, 8.00
+Everything Everywhere All at Once, Sci-Fi, 2022, 9.41
+Glass Onion: A Knives Out Mystery, Mystery, 2022, 8.82
+Nope, Horror, 2022, 7.71
+The Banshees of Inisherin, Drama, 2022, 8.59
+The Batman, Action, 2022, 8.82
+The Menu, Thriller, 2022, 8.24
+The Whale, Drama, 2022, 9.00
+Top Gun: Maverick, Action, 2022, 9.24
+Turning Red, Animation, 2022, 7.71
+Ant-Man and the Wasp: Quantumania, Action, 2023, 7.24
+Barbie, Comedy, 2023, 8.41
+Guardians of the Galaxy Vol. 3, Action, 2023, 8.94
+John Wick: Chapter 4, Action, 2023, 8.82
+Oppenheimer, Biography, 2023, 9.59
+Poor Things, Fantasy, 2023, 8.88
+Saltburn, Thriller, 2023, 8.00
+Shazam! Fury of the Gods, Action, 2023, 7.00
+Spider-Man: Across the Spider-Verse, Animation, 2023, 9.71
+The Flash, Action, 2023, 6.47
+The Marvels, Action, 2023, 6.71
+The Super Mario Bros. Movie, Animation, 2023, 7.47
+Dune: Part Two, Sci-Fi, 2024, 9.65

@@ -1,0 +1,49 @@
+INPUT:
+6
+2001 John 3 18
+2002 Mark 4 10
+2003 Sarah 2 25
+2004 Peter 1 30
+2005 Lucy 5 28
+2006 Max 6 19
+
+
+OUTPUT:
+Doctors that are treating:
+John (2001) 3 18
+Mark (2002) 4 10
+Sarah (2003) 2 25
+Peter (2004) 1 30
+Lucy (2005) 5 28
+Max (2006) 6 19
+
+=== All Doctors ===
+John (2001) 3 18
+Mark (2002) 4 10
+Sarah (2003) 2 25
+Peter (2004) 1 30
+Lucy (2005) 5 28
+Max (2006) 6 19
+
+=== Doctors with higher number of patients and a higher level of expertise ===
+
+=== Chief doctor (level = 10) ===
+No chief found
+
+=== Increase all expertise levels by 1 (max 10) ===
+John (2001) 4 18
+Mark (2002) 5 10
+Sarah (2003) 3 25
+Peter (2004) 2 30
+Lucy (2005) 6 28
+Max (2006) 7 19
+
+=== Increase the level of expertise of every doctor by 1 ===
+
+=== Map doctors to labels ===
+Name: John, Level: 4
+Name: Mark, Level: 5
+Name: Sarah, Level: 3
+Name: Peter, Level: 3
+Name: Lucy, Level: 6
+Name: Max, Level: 7

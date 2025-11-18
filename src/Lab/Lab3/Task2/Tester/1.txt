@@ -1,0 +1,14 @@
+INPUT:
+0
+AD001 tech 2.5 0.12 Amazing new phone
+AD002 tech 1.5 0.10 Cheap used phone
+AD003 sports 3.2 0.05 Great running shoes
+AD004 tech 2.8 0.09 Laptop for professionals
+
+AR001 tech 2.0 technology phone
+
+
+
+OUTPUT:
+Top ads for request AR001:
+AD001 tech (bid=2.50, ctr=12.00%) Amazing new phone

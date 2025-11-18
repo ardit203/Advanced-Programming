@@ -1,0 +1,18 @@
+INPUT:
+1
+AD001 tech 2.5 0.12 Amazing new phone
+AD002 tech 1.5 0.20 Cheap used phone
+AD003 sports 3.2 0.05 Great running shoes
+AD004 tech 2.8 0.09 Laptop for professionals
+AD005 fashion 1.9 0.30 New summer collection
+AD006 tech 3.0 0.08 Smartphone with AI technology
+
+AR002 tech 1.5 technology phone laptop
+
+
+
+OUTPUT:
+Top ads for request AR002:
+AD001 tech (bid=2.50, ctr=12.00%) Amazing new phone
+AD005 fashion (bid=1.90, ctr=30.00%) New summer collection
+AD002 tech (bid=1.50, ctr=20.00%) Cheap used phone

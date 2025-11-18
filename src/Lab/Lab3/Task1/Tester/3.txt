@@ -1,0 +1,310 @@
+INPUT:
+40
+Reservoir Dogs
+Crime
+1992
+9 9 9 8 9 9 9 9 8 9 9 8 9 9 9 8 9
+Pulp Fiction
+Crime
+1994
+10 9 10 9 10 9 10 9 10 9 10 9 10 9 10 9 10
+Jackie Brown
+Crime
+1997
+8 9 8 9 8 9 8 9 8 9 8 9 8 9 8 9 8
+Kill Bill: Vol. 1
+Action
+2003
+9 9 9 9 9 9 9 9 9 9 8 9 9 9 9 9 9
+Kill Bill: Vol. 2
+Action
+2004
+8 9 8 9 8 9 8 9 8 9 8 9 8 9 8 9 8
+Death Proof
+Thriller
+2007
+7 7 6 7 7 7 6 7 6 7 7 6 7 7 7 6 7
+Inglourious Basterds
+War
+2009
+10 9 10 10 9 10 9 10 9 10 9 10 9 10 10 9 10
+Django Unchained
+Western
+2012
+10 10 9 10 10 9 10 9 10 9 10 10 9 10 9 10 10
+The Hateful Eight
+Western
+2015
+8 9 9 8 8 9 8 9 8 9 8 9 8 9 8 9 8
+Once Upon a Time in Hollywood
+Comedy
+2019
+9 8 9 9 9 9 8 9 9 9 8 9 9 8 9 9 9
+Four Rooms
+Comedy
+1995
+7 7 8 7 7 8 7 7 7 8 7 7 7 8 7 7 7
+True Romance
+Crime
+1993
+8 9 8 8 8 9 8 8 9 8 8 9 8 8 8 9 8
+From Dusk Till Dawn
+Horror
+1996
+8 8 7 8 8 8 7 8 8 7 8 8 7 8 8 8 7
+Duel
+Thriller
+1971
+8 8 7 8 8 8 7 7 8 8 7 8 8 7 8 8 7
+The Sugarland Express
+Crime
+1974
+8 7 8 8 8 7 8 8 7 8 8 7 8 7 8 8 8
+Jaws
+Thriller
+1975
+10 9 10 10 9 9 10 10 9 10 9 10 9 10 10 9 10
+Close Encounters of the Third Kind
+Sci-Fi
+1977
+9 9 10 9 9 10 9 10 9 9 10 9 9 10 9 9 10
+1941
+Comedy
+1979
+6 6 7 6 7 6 6 7 6 6 6 7 6 6 7 6 6
+Raiders of the Lost Ark
+Adventure
+1981
+10 10 9 9 10 10 9 10 9 10 9 10 9 10 10 9 10
+E.T. the Extra-Terrestrial
+Sci-Fi
+1982
+10 10 9 10 10 9 10 9 10 9 10 10 9 10 9 10 10
+Indiana Jones and the Temple of Doom
+Adventure
+1984
+8 8 9 8 9 8 8 9 8 9 8 8 9 8 9 8 8
+The Color Purple
+Drama
+1985
+8 8 8 8 8 9 8 8 8 8 8 8 9 8 8 8 8
+Empire of the Sun
+Drama
+1987
+8 9 8 8 9 8 8 9 8 8 9 8 8 9 8 8 8
+Indiana Jones and the Last Crusade
+Adventure
+1989
+9 9 8 9 9 9 8 9 8 9 8 9 9 8 9 8 9
+Hook
+Fantasy
+1991
+7 7 8 7 7 8 7 7 8 7 7 7 8 7 7 8 7
+Jurassic Park
+Adventure
+1993
+10 9 9 10 9 9 10 10 9 10 9 9 10 9 9 9 10
+Schindler's List
+Drama
+1993
+10 10 10 9 10 10 9 10 9 10 10 10 9 10 10 9 10
+Jackie Brown
+Crime
+1997
+8 9 8 9 8 9 8 9 8 9 8 9 8 9 8 9 8
+Amistad
+Drama
+1997
+7 7 8 7 7 7 8 7 7 8 7 7 7 7 8 7 7
+Saving Private Ryan
+War
+1998
+10 10 10 9 9 10 10 9 10 9 10 10 10 9 10 10 9
+A.I. Artificial Intelligence
+Sci-Fi
+2001
+8 8 8 8 8 8 9 8 8 9 8 8 8 8 8 8 8
+Minority Report
+Sci-Fi
+2002
+9 9 8 9 9 9 9 9 9 8 9 9 9 8 9 9 9
+Catch Me If You Can
+Crime
+2002
+9 9 10 9 9 9 10 9 10 9 9 10 9 9 10 9 9
+The Terminal
+Comedy
+2004
+8 8 8 8 8 8 8 8 9 8 8 8 8 8 8 8 8
+War of the Worlds
+Sci-Fi
+2005
+8 8 9 8 9 8 8 9 8 9 8 8 8 9 8 9 8
+Munich
+Drama
+2005
+8 9 8 8 9 8 8 9 8 8 9 8 8 9 8 8 9
+Indiana Jones and the Kingdom of the Crystal Skull
+Adventure
+2008
+6 6 6 7 6 6 6 7 6 6 6 7 6 6 6 6 7
+War Horse
+Drama
+2011
+7 7 8 7 7 7 7 7 8 7 7 7 7 7 7 7 7
+Lincoln
+Biography
+2012
+9 9 10 9 9 9 10 9 9 9 10 9 9 10 9 9 9
+Django Unchained
+Western
+2012
+10 10 9 10 10 9 10 9 10 9 10 10 9 10 9 10 10
+Bridge of Spies
+Thriller
+2015
+9 9 8 9 9 9 9 8 9 9 8 9 9 9 9 8 9
+The Post
+Drama
+2017
+8 8 8 8 9 8 8 8 8 8 8 8 8 9 8 8 8
+Ready Player One
+Sci-Fi
+2018
+7 7 8 7 7 8 7 7 7 7 7 8 7 7 7 7 7
+West Side Story
+Musical
+2021
+8 8 8 8 8 8 9 8 8 8 8 8 8 8 8 8 8
+The Fabelmans
+Drama
+2022
+10 9 9 9 9 9 10 9 9 9 9 9 10 9 9 9 9
+
+
+OUTPUT:
+SORTING BY RATING
+Schindler's List, Drama, 1993, 9.71
+Django Unchained, Western, 2012, 9.65
+Django Unchained, Western, 2012, 9.65
+E.T. the Extra-Terrestrial, Sci-Fi, 1982, 9.65
+Saving Private Ryan, War, 1998, 9.65
+Inglourious Basterds, War, 2009, 9.59
+Jaws, Thriller, 1975, 9.59
+Raiders of the Lost Ark, Adventure, 1981, 9.59
+Pulp Fiction, Crime, 1994, 9.53
+Jurassic Park, Adventure, 1993, 9.41
+Close Encounters of the Third Kind, Sci-Fi, 1977, 9.35
+Catch Me If You Can, Crime, 2002, 9.29
+Lincoln, Biography, 2012, 9.24
+Kill Bill: Vol. 1, Action, 2003, 8.94
+Minority Report, Sci-Fi, 2002, 8.82
+Once Upon a Time in Hollywood, Comedy, 2019, 8.76
+Reservoir Dogs, Crime, 1992, 8.76
+Indiana Jones and the Last Crusade, Adventure, 1989, 8.65
+Jackie Brown, Crime, 1997, 8.47
+Jackie Brown, Crime, 1997, 8.47
+Kill Bill: Vol. 2, Action, 2004, 8.47
+The Hateful Eight, Western, 2015, 8.47
+Indiana Jones and the Temple of Doom, Adventure, 1984, 8.35
+Munich, Drama, 2005, 8.35
+War of the Worlds, Sci-Fi, 2005, 8.35
+Empire of the Sun, Drama, 1987, 8.29
+True Romance, Crime, 1993, 8.29
+A.I. Artificial Intelligence, Sci-Fi, 2001, 8.12
+The Color Purple, Drama, 1985, 8.12
+The Terminal, Comedy, 2004, 8.06
+From Dusk Till Dawn, Horror, 1996, 7.71
+The Sugarland Express, Crime, 1974, 7.71
+Duel, Thriller, 1971, 7.65
+Hook, Fantasy, 1991, 7.29
+Amistad, Drama, 1997, 7.24
+Four Rooms, Comedy, 1995, 7.24
+War Horse, Drama, 2011, 7.12
+Death Proof, Thriller, 2007, 6.71
+1941, Comedy, 1979, 6.29
+Indiana Jones and the Kingdom of the Crystal Skull, Adventure, 2008, 6.24
+
+SORTING BY GENRE
+Kill Bill: Vol. 1, Action, 2003, 8.94
+Kill Bill: Vol. 2, Action, 2004, 8.47
+Indiana Jones and the Kingdom of the Crystal Skull, Adventure, 2008, 6.24
+Indiana Jones and the Last Crusade, Adventure, 1989, 8.65
+Indiana Jones and the Temple of Doom, Adventure, 1984, 8.35
+Jurassic Park, Adventure, 1993, 9.41
+Raiders of the Lost Ark, Adventure, 1981, 9.59
+Lincoln, Biography, 2012, 9.24
+1941, Comedy, 1979, 6.29
+Four Rooms, Comedy, 1995, 7.24
+Once Upon a Time in Hollywood, Comedy, 2019, 8.76
+The Terminal, Comedy, 2004, 8.06
+Catch Me If You Can, Crime, 2002, 9.29
+Jackie Brown, Crime, 1997, 8.47
+Jackie Brown, Crime, 1997, 8.47
+Pulp Fiction, Crime, 1994, 9.53
+Reservoir Dogs, Crime, 1992, 8.76
+The Sugarland Express, Crime, 1974, 7.71
+True Romance, Crime, 1993, 8.29
+Amistad, Drama, 1997, 7.24
+Empire of the Sun, Drama, 1987, 8.29
+Munich, Drama, 2005, 8.35
+Schindler's List, Drama, 1993, 9.71
+The Color Purple, Drama, 1985, 8.12
+War Horse, Drama, 2011, 7.12
+Hook, Fantasy, 1991, 7.29
+From Dusk Till Dawn, Horror, 1996, 7.71
+A.I. Artificial Intelligence, Sci-Fi, 2001, 8.12
+Close Encounters of the Third Kind, Sci-Fi, 1977, 9.35
+E.T. the Extra-Terrestrial, Sci-Fi, 1982, 9.65
+Minority Report, Sci-Fi, 2002, 8.82
+War of the Worlds, Sci-Fi, 2005, 8.35
+Death Proof, Thriller, 2007, 6.71
+Duel, Thriller, 1971, 7.65
+Jaws, Thriller, 1975, 9.59
+Inglourious Basterds, War, 2009, 9.59
+Saving Private Ryan, War, 1998, 9.65
+Django Unchained, Western, 2012, 9.65
+Django Unchained, Western, 2012, 9.65
+The Hateful Eight, Western, 2015, 8.47
+
+SORTING BY YEAR
+Duel, Thriller, 1971, 7.65
+The Sugarland Express, Crime, 1974, 7.71
+Jaws, Thriller, 1975, 9.59
+Close Encounters of the Third Kind, Sci-Fi, 1977, 9.35
+1941, Comedy, 1979, 6.29
+Raiders of the Lost Ark, Adventure, 1981, 9.59
+E.T. the Extra-Terrestrial, Sci-Fi, 1982, 9.65
+Indiana Jones and the Temple of Doom, Adventure, 1984, 8.35
+The Color Purple, Drama, 1985, 8.12
+Empire of the Sun, Drama, 1987, 8.29
+Indiana Jones and the Last Crusade, Adventure, 1989, 8.65
+Hook, Fantasy, 1991, 7.29
+Reservoir Dogs, Crime, 1992, 8.76
+Jurassic Park, Adventure, 1993, 9.41
+Schindler's List, Drama, 1993, 9.71
+True Romance, Crime, 1993, 8.29
+Pulp Fiction, Crime, 1994, 9.53
+Four Rooms, Comedy, 1995, 7.24
+From Dusk Till Dawn, Horror, 1996, 7.71
+Amistad, Drama, 1997, 7.24
+Jackie Brown, Crime, 1997, 8.47
+Jackie Brown, Crime, 1997, 8.47
+Saving Private Ryan, War, 1998, 9.65
+A.I. Artificial Intelligence, Sci-Fi, 2001, 8.12
+Catch Me If You Can, Crime, 2002, 9.29
+Minority Report, Sci-Fi, 2002, 8.82
+Kill Bill: Vol. 1, Action, 2003, 8.94
+Kill Bill: Vol. 2, Action, 2004, 8.47
+The Terminal, Comedy, 2004, 8.06
+Munich, Drama, 2005, 8.35
+War of the Worlds, Sci-Fi, 2005, 8.35
+Death Proof, Thriller, 2007, 6.71
+Indiana Jones and the Kingdom of the Crystal Skull, Adventure, 2008, 6.24
+Inglourious Basterds, War, 2009, 9.59
+War Horse, Drama, 2011, 7.12
+Django Unchained, Western, 2012, 9.65
+Django Unchained, Western, 2012, 9.65
+Lincoln, Biography, 2012, 9.24
+The Hateful Eight, Western, 2015, 8.47
+Once Upon a Time in Hollywood, Comedy, 2019, 8.76

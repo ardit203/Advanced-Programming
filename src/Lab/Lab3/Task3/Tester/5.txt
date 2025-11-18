@@ -1,0 +1,53 @@
+INPUT:
+1;High GPA;5.0;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+2;High Appropriate;3.0;Mother Tongue;5;Mathematics;5;Informatics;5;History;3;SI
+3;Balanced;4.0;Mother Tongue;4;Mathematics;4;Informatics;4;English;4;SI
+4;Low Appropriate;4.5;Mother Tongue;3;Mathematics;3;Informatics;3;Geography;5;SI
+5;Medium;3.8;Mother Tongue;4;Mathematics;5;Informatics;4;Biology;4;SI
+
+
+
+OUTPUT:
+Faculty: FINKI
+Subjects: [Mother Tongue, Mathematics, Informatics]
+Study Programmes:
+Name: Software Engineering
+Public Quota:
+Id: 1, Name: High GPA, GPA: 5.0 - 96.0
+Id: 4, Name: Low Appropriate, GPA: 4.5 - 78.0
+Id: 3, Name: Balanced, GPA: 4.0 - 76.8
+Id: 5, Name: Medium, GPA: 3.8 - 76.39999999999999
+Private Quota:
+Id: 2, Name: High Appropriate, GPA: 3.0 - 69.6
+Rejected:
+
+Name: Information Technology
+Public Quota:
+Private Quota:
+Rejected:
+
+Faculty: FEIT
+Subjects: [Mother Tongue, Mathematics, Physics, Electronics]
+Study Programmes:
+Name: Computer Technologies and Engineering
+Public Quota:
+Private Quota:
+Rejected:
+
+Name: Electro-energetic Systems
+Public Quota:
+Private Quota:
+Rejected:
+
+Faculty: MEDFAK
+Subjects: [Mother Tongue, English, Mathematics, Biology, Chemistry]
+Study Programmes:
+Name: General Medicine
+Public Quota:
+Private Quota:
+Rejected:
+
+Name: Nursing
+Public Quota:
+Private Quota:
+Rejected:

@@ -1,0 +1,103 @@
+INPUT:
+1;Ana Petrovska;4.5;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;4;SI
+2;Marko Ilievski;4.2;Mother Tongue;4;Mathematics;5;Informatics;4;English;3;SI
+3;Elena Nikolova;4.8;Mother Tongue;5;Mathematics;5;Biology;5;Chemistry;5;OM
+4;Stefan Dimovski;3.9;Mother Tongue;4;Mathematics;4;Physics;4;Electronics;4;KTI
+5;Jovana Stojanovic;4.6;Mother Tongue;5;English;5;Biology;5;Chemistry;5;OM
+6;Nikola Trajkovski;4.1;Mother Tongue;4;Mathematics;4;Informatics;5;Physics;4;IT
+7;Katerina Georgievska;4.7;Mother Tongue;5;Mathematics;5;Informatics;5;English;4;SI
+8;Dimitar Angelov;3.8;Mother Tongue;3;Mathematics;4;Physics;4;Electronics;3;EES
+9;Milica Jovanovska;4.4;Mother Tongue;5;English;4;Biology;5;Chemistry;4;NURS
+10;Aleksandar Mitrevski;4.3;Mother Tongue;4;Mathematics;5;Informatics;4;Physics;4;SI
+11;Sofija Petrovic;4.9;Mother Tongue;5;English;5;Biology;5;Chemistry;5;OM
+12;Viktor Stojanov;3.7;Mother Tongue;3;Mathematics;3;Physics;4;Electronics;3;KTI
+13;Ivana Kostovska;4.5;Mother Tongue;5;Mathematics;4;Informatics;5;English;4;IT
+14;Bojan Maksimov;4.0;Mother Tongue;4;Mathematics;4;Physics;4;Electronics;4;EES
+15;Teodora Mihajlova;4.6;Mother Tongue;5;English;5;Biology;5;Chemistry;5;OM
+16;Filip Krstevski;3.9;Mother Tongue;4;Mathematics;4;Informatics;4;Physics;3;SI
+17;Marija Vasileva;4.2;Mother Tongue;4;Mathematics;4;Physics;4;Electronics;4;KTI
+18;Goce Naumovski;4.8;Mother Tongue;5;Mathematics;5;Informatics;5;English;5;IT
+19;Anastasija Jordanova;4.3;Mother Tongue;4;English;5;Biology;4;Chemistry;4;NURS
+20;Dejan Simonovski;3.6;Mother Tongue;3;Mathematics;3;Physics;3;Electronics;4;EES
+21;Ivana Zdravkovska;4.7;Mother Tongue;5;English;5;Biology;5;Chemistry;5;OM
+22;Sasho Andonovski;4.1;Mother Tongue;4;Mathematics;5;Informatics;4;Physics;4;SI
+23;Kristina Markova;4.4;Mother Tongue;5;Mathematics;4;Physics;4;Electronics;4;KTI
+24;Martin Spasovski;3.8;Mother Tongue;3;Mathematics;4;Informatics;3;English;3;IT
+25;Emilija Stefanovska;4.5;Mother Tongue;5;English;4;Biology;5;Chemistry;4;NURS
+26;Todor Lazarevski;4.0;Mother Tongue;4;Mathematics;4;Physics;4;Electronics;4;EES
+27;Simona Ristovska;4.9;Mother Tongue;5;English;5;Biology;5;Chemistry;5;OM
+28;Kire Petrovski;3.5;Mother Tongue;3;Mathematics;3;Informatics;3;Physics;3;SI
+29;Biljana Todorovska;4.6;Mother Tongue;5;Mathematics;5;Physics;5;Electronics;5;KTI
+30;Damjan Gjorgievski;4.2;Mother Tongue;4;Mathematics;4;Informatics;4;English;4;IT
+
+
+
+OUTPUT:
+Faculty: FINKI
+Subjects: [Mother Tongue, Mathematics, Informatics]
+Study Programmes:
+Name: Information Technology
+Public Quota:
+Id: 18, Name: Goce Naumovski, GPA: 4.8 - 93.6
+Id: 13, Name: Ivana Kostovska, GPA: 4.5 - 86.8
+Private Quota:
+Id: 6, Name: Nikola Trajkovski, GPA: 4.1 - 80.0
+Id: 30, Name: Damjan Gjorgievski, GPA: 4.2 - 79.2
+Rejected:
+Id: 24, Name: Martin Spasovski, GPA: 3.8 - 69.19999999999999
+
+Name: Software Engineering
+Public Quota:
+Id: 7, Name: Katerina Georgievska, GPA: 4.7 - 91.2
+Id: 1, Name: Ana Petrovska, GPA: 4.5 - 88.8
+Id: 10, Name: Aleksandar Mitrevski, GPA: 4.3 - 82.39999999999999
+Id: 2, Name: Marko Ilievski, GPA: 4.2 - 80.0
+Private Quota:
+Id: 22, Name: Sasho Andonovski, GPA: 4.1 - 80.0
+Id: 16, Name: Filip Krstevski, GPA: 3.9 - 74.4
+Id: 28, Name: Kire Petrovski, GPA: 3.5 - 63.6
+Rejected:
+
+Faculty: FEIT
+Subjects: [Mother Tongue, Mathematics, Physics, Electronics]
+Study Programmes:
+Name: Electro-energetic Systems
+Public Quota:
+Id: 14, Name: Bojan Maksimov, GPA: 4.0 - 80.0
+Id: 26, Name: Todor Lazarevski, GPA: 4.0 - 80.0
+Private Quota:
+Id: 8, Name: Dimitar Angelov, GPA: 3.8 - 73.6
+Id: 20, Name: Dejan Simonovski, GPA: 3.6 - 69.2
+Rejected:
+
+Name: Computer Technologies and Engineering
+Public Quota:
+Id: 29, Name: Biljana Todorovska, GPA: 4.6 - 95.19999999999999
+Id: 23, Name: Kristina Markova, GPA: 4.4 - 86.80000000000001
+Id: 17, Name: Marija Vasileva, GPA: 4.2 - 82.4
+Private Quota:
+Id: 4, Name: Stefan Dimovski, GPA: 3.9 - 78.8
+Id: 12, Name: Viktor Stojanov, GPA: 3.7 - 70.4
+Rejected:
+
+Faculty: MEDFAK
+Subjects: [Mother Tongue, English, Mathematics, Biology, Chemistry]
+Study Programmes:
+Name: Nursing
+Public Quota:
+Id: 25, Name: Emilija Stefanovska, GPA: 4.5 - 90.0
+Id: 9, Name: Milica Jovanovska, GPA: 4.4 - 88.80000000000001
+Private Quota:
+Id: 19, Name: Anastasija Jordanova, GPA: 4.3 - 85.6
+Rejected:
+
+Name: General Medicine
+Public Quota:
+Id: 11, Name: Sofija Petrovic, GPA: 4.9 - 98.80000000000001
+Id: 27, Name: Simona Ristovska, GPA: 4.9 - 98.80000000000001
+Id: 3, Name: Elena Nikolova, GPA: 4.8 - 97.6
+Id: 21, Name: Ivana Zdravkovska, GPA: 4.7 - 96.4
+Id: 5, Name: Jovana Stojanovic, GPA: 4.6 - 95.19999999999999
+Id: 15, Name: Teodora Mihajlova, GPA: 4.6 - 95.19999999999999
+Private Quota:
+Rejected:

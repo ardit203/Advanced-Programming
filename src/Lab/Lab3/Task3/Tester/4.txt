@@ -1,0 +1,63 @@
+INPUT:
+1;Student A;5.0;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+2;Student B;4.9;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+3;Student C;4.8;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+4;Student D;4.7;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+5;Student E;4.6;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+6;Student F;4.5;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+7;Student G;4.4;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+8;Student H;4.3;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+9;Student I;4.2;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;SI
+10;Student J;4.0;Mother Tongue;5;Mathematics;5;Informatics;5;Physics;5;IT
+
+
+
+OUTPUT:
+Faculty: FINKI
+Subjects: [Mother Tongue, Mathematics, Informatics]
+Study Programmes:
+Name: Software Engineering
+Public Quota:
+Id: 1, Name: Student A, GPA: 5.0 - 96.0
+Id: 2, Name: Student B, GPA: 4.9 - 94.80000000000001
+Id: 3, Name: Student C, GPA: 4.8 - 93.6
+Id: 4, Name: Student D, GPA: 4.7 - 92.4
+Private Quota:
+Id: 5, Name: Student E, GPA: 4.6 - 91.19999999999999
+Id: 6, Name: Student F, GPA: 4.5 - 90.0
+Id: 7, Name: Student G, GPA: 4.4 - 88.80000000000001
+Id: 8, Name: Student H, GPA: 4.3 - 87.6
+Rejected:
+Id: 9, Name: Student I, GPA: 4.2 - 86.4
+
+Name: Information Technology
+Public Quota:
+Id: 10, Name: Student J, GPA: 4.0 - 84.0
+Private Quota:
+Rejected:
+
+Faculty: FEIT
+Subjects: [Mother Tongue, Mathematics, Physics, Electronics]
+Study Programmes:
+Name: Computer Technologies and Engineering
+Public Quota:
+Private Quota:
+Rejected:
+
+Name: Electro-energetic Systems
+Public Quota:
+Private Quota:
+Rejected:
+
+Faculty: MEDFAK
+Subjects: [Mother Tongue, English, Mathematics, Biology, Chemistry]
+Study Programmes:
+Name: General Medicine
+Public Quota:
+Private Quota:
+Rejected:
+
+Name: Nursing
+Public Quota:
+Private Quota:
+Rejected:

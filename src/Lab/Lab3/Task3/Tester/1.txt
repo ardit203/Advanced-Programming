@@ -1,0 +1,63 @@
+INPUT:
+1;Ana;4.9;Mother Tongue;5;Mathematics;5;Informatics;5;English;4;SI
+2;Boris;4.5;Mother Tongue;4;Mathematics;5;Informatics;4;Physics;3;IT
+3;Katerina;5.0;Mother Tongue;5;Mathematics;5;Physics;5;Electronics;5;KTI
+4;Petar;4.2;Mother Tongue;4;Mathematics;4;Informatics;3;Physics;4;SI
+5;Marija;4.8;Mother Tongue;5;Mathematics;5;Biology;4;Chemistry;5;OM
+6;Stefan;4.0;Mother Tongue;4;Mathematics;4;Physics;3;Electronics;4;EES
+7;Ivana;4.6;Mother Tongue;5;Mathematics;4;Informatics;5;English;5;IT
+8;Tanja;4.7;Mother Tongue;5;English;5;Mathematics;5;Chemistry;5;NURS
+9;Marko;4.3;Mother Tongue;4;Mathematics;4;Biology;3;Chemistry;4;OM
+10;Viktor;4.9;Mother Tongue;5;Mathematics;5;Physics;5;Electronics;5;KTI
+
+
+
+OUTPUT:
+Faculty: FINKI
+Subjects: [Mother Tongue, Mathematics, Informatics]
+Study Programmes:
+Name: Information Technology
+Public Quota:
+Id: 7, Name: Ivana, GPA: 4.6 - 89.19999999999999
+Id: 2, Name: Boris, GPA: 4.5 - 83.6
+Private Quota:
+Rejected:
+
+Name: Software Engineering
+Public Quota:
+Id: 1, Name: Ana, GPA: 4.9 - 93.6
+Id: 4, Name: Petar, GPA: 4.2 - 77.2
+Private Quota:
+Rejected:
+
+Faculty: FEIT
+Subjects: [Mother Tongue, Mathematics, Physics, Electronics]
+Study Programmes:
+Name: Computer Technologies and Engineering
+Public Quota:
+Id: 3, Name: Katerina, GPA: 5.0 - 100.0
+Id: 10, Name: Viktor, GPA: 4.9 - 98.80000000000001
+Private Quota:
+Rejected:
+
+Name: Electro-energetic Systems
+Public Quota:
+Id: 6, Name: Stefan, GPA: 4.0 - 78.0
+Private Quota:
+Rejected:
+
+Faculty: MEDFAK
+Subjects: [Mother Tongue, English, Mathematics, Biology, Chemistry]
+Study Programmes:
+Name: Nursing
+Public Quota:
+Id: 8, Name: Tanja, GPA: 4.7 - 96.4
+Private Quota:
+Rejected:
+
+Name: General Medicine
+Public Quota:
+Id: 5, Name: Marija, GPA: 4.8 - 95.6
+Id: 9, Name: Marko, GPA: 4.3 - 81.6
+Private Quota:
+Rejected:

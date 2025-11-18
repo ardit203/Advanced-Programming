@@ -1,0 +1,30 @@
+INPUT:
+2
+AD001 tech 2.5 0.12 Amazing new phone
+AD002 tech 1.5 0.08 Budget smartphone
+AD003 sports 3.2 0.10 Great running shoes
+AD004 tech 2.8 0.09 Laptop for professionals
+AD005 fashion 1.9 0.30 New summer collection
+AD006 tech 3.0 0.08 Smartphone with AI technology
+AD007 tech 2.7 0.15 Gaming keyboard
+AD008 tech 2.6 0.18 High performance desktop
+AD009 sports 2.4 0.20 Fitness watch sale
+AD010 tech 3.5 0.07 Quantum computer demo
+AD011 tech 2.9 0.13 Foldable phone concept
+AD012 tech 2.3 0.25 Lightweight tablet
+AD013 fashion 3.0 0.05 Luxury perfume set
+
+AR003 tech 2.5 technology phone desktop laptop
+
+
+
+OUTPUT:
+Top ads for request AR003:
+AD010 tech (bid=3.50, ctr=7.00%) Quantum computer demo
+AD003 sports (bid=3.20, ctr=10.00%) Great running shoes
+AD006 tech (bid=3.00, ctr=8.00%) Smartphone with AI technology
+AD011 tech (bid=2.90, ctr=13.00%) Foldable phone concept
+AD004 tech (bid=2.80, ctr=9.00%) Laptop for professionals
+AD007 tech (bid=2.70, ctr=15.00%) Gaming keyboard
+AD008 tech (bid=2.60, ctr=18.00%) High performance desktop
+AD001 tech (bid=2.50, ctr=12.00%) Amazing new phone
