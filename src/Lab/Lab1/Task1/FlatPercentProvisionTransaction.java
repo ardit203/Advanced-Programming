@@ -11,4 +11,9 @@ public class FlatPercentProvisionTransaction extends Transaction {
     public int getPercent() {
         return percent;
     }
+
+    @Override
+    public double provision() {
+        return percent / 100.0 * getAmount();
+    }
 }

@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 
 public class Scheduler<T> {
@@ -73,5 +75,31 @@ public class Scheduler<T> {
             }
         }
         return all;
+    }
+
+    //Additional Requirement
+    public static <T, R> Scheduler<R> map(Scheduler<T> source, Function<Timestamp<T>, R> mapper, Predicate<Timestamp<T>> filter) {
+        Scheduler<R> schd = new Scheduler<>();
+        schd.timestamps = (Timestamp[]) Arrays.stream(source.timestamps).filter(filter).map(mapper).toArray();
+
+        return schd;
+    }
+
+
+    public static <T> long countIf(Scheduler<T> source, Predicate<Timestamp<T>> predicate) {
+        return Arrays.stream(source.timestamps).filter(predicate).count();
+    }
+
+    public static <T> Scheduler merge(Scheduler<? extends T> first, Scheduler<? extends T> second) {
+        Scheduler<T> schd = new Scheduler<>();
+
+        for (int i = 0; i < first.size; i++) {
+            schd.add(new Timestamp<>(first.timestamps[i].getTime(), (T) first.timestamps[i].getElement()));
+        }
+
+        for (int i = 0; i < second.size; i++) {
+            schd.add(new Timestamp<>(second.timestamps[i].getTime(), (T) second.timestamps[i].getElement()));
+        }
+        return schd;
     }
 }

@@ -17,4 +17,9 @@ public class Circle extends Shape {
     public float weight() {
         return (float) (Math.PI * radius * radius);
     }
+
+    @Override
+    public String toString() {
+        return String.format("C: %-5s%-10s%10.2f\n",getId(), getColor(), weight());
+    }
 }

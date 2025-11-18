@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class AdNetwork {
     private static double x = 5.0;
-    private static double y=100.0;
+    private static double y = 100.0;
     private List<Ad> ads;
     private AdRequest req;
 

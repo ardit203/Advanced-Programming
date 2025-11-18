@@ -1,7 +1,7 @@
 package Lab.Lab3.Task2;
 
 
-public class Ad implements Comparable {
+public class Ad implements Comparable<Ad> {
     private String id;
     private String category;
     private double bidValue;
@@ -62,10 +62,9 @@ public class Ad implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        Ad ad = (Ad) o;
-        int byBid = Double.compare(ad.bidValue, this.bidValue);
-        return byBid != 0 ? byBid : this.id.compareTo(ad.id);
+    public int compareTo(Ad other) {
+        int byBid = Double.compare(other.bidValue, this.bidValue);
+        return byBid != 0 ? byBid : this.id.compareTo(other.id);
 //        return Comparator.comparingDouble(Ad::getBidValue).reversed().thenComparing(Ad::getId).compare(this, ad);
     }
 }

@@ -1,9 +1,5 @@
 package Lab.Lab1.Task2;
 
-
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-
 public class MovablesCollection {
     Movable[] movable;
     int size;
@@ -25,7 +21,7 @@ public class MovablesCollection {
         if (x > x_MAX || x < x_MIN || y > y_MAX || y < y_MIN) {
             throw new MovableObjectNotFittableException(x, y);
         }
-        if (m instanceof MovableCircle) {
+        if (m.getType() == TYPE.CIRCLE) {
             MovableCircle mc = (MovableCircle) m;
             int radius = mc.getRadius();
             if (x + radius > x_MAX || x - radius < x_MIN || y + radius > y_MAX || y - radius < y_MIN) {
@@ -35,37 +31,17 @@ public class MovablesCollection {
         movable[size++] = m;
     }
 
+
     public void moveObjectsFromTypeWithDirection(TYPE type, DIRECTION direction) {
-        Predicate<Movable> predicate = getPredicate(type);
-        Consumer<Movable> consumer = getConsumer(direction);
         for (int i = 0; i < size; i++) {
-            if (predicate.test(movable[i])) {
-                try {
-                    consumer.accept(movable[i]);
-                } catch (ObjectCanNotBeMovedException e) {
-                    System.out.println(e.getMessage());
-                }
+            try {
+                Move moveInDirection = MoveFactory.move(type, direction, movable[i]);
+                moveInDirection.move(movable[i]);
+            } catch (ObjectCanNotBeMovedException e) {
+                System.out.println(e.getMessage());
+            } catch (UnsupportedMoveException e) {
+                continue;
             }
-        }
-    }
-
-    private Consumer<Movable> getConsumer(DIRECTION direction) {
-        if (direction == DIRECTION.LEFT) {
-            return m -> m.moveLeft();
-        } else if (direction == DIRECTION.RIGHT) {
-            return m -> m.moveRight();
-        } else if (direction == DIRECTION.UP) {
-            return m -> m.moveUp();
-        } else {
-            return m -> m.moveDown();
-        }
-    }
-
-    private Predicate<Movable> getPredicate(TYPE type) {
-        if (type == TYPE.POINT) {
-            return p -> p instanceof MovablePoint;
-        } else {
-            return p -> p instanceof MovableCircle;
         }
     }
 

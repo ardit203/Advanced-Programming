@@ -10,6 +10,8 @@ public class MovableCircle implements Movable {
         this.point = point;
     }
 
+
+
     @Override
     public void moveUp() {
         point.moveUp();
@@ -42,6 +44,11 @@ public class MovableCircle implements Movable {
 
     public int getRadius() {
         return radius;
+    }
+
+    @Override
+    public TYPE getType() {
+        return TYPE.CIRCLE;
     }
 
     @Override

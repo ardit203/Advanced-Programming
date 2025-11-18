@@ -12,4 +12,9 @@ public class FlatAmountProvisionTransaction extends Transaction {
     public double getFlatAmount() {
         return flatAmount;
     }
+
+    @Override
+    public double provision() {
+        return flatAmount;
+    }
 }

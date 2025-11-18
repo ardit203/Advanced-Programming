@@ -2,7 +2,7 @@ package Lab.Lab1.Task1;
 
 import java.util.Objects;
 
-public class Transaction {
+public abstract class Transaction {
     private long fromId;
     private long toId;
     private String desc;
@@ -30,6 +30,8 @@ public class Transaction {
     public String getDescription() {
         return desc;
     }
+
+    public abstract double provision();
 
     @Override
     public boolean equals(Object o) {

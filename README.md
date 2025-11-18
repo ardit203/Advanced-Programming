@@ -15,6 +15,7 @@ AdvancedProgramming/
 ├── Exam/                       # Exam preparation tasks and problems
 ├── Exercises/                  # Auditory exercises solved using my own approach
 ├── Lab/                        # Laboratory exercises
+├── utils/                      # utility files/classes
 └── README.md                   # Repository overview
 
 ```

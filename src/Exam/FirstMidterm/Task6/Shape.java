@@ -13,14 +13,7 @@ public abstract class Shape implements Scalable, Stackable {
         return id;
     }
 
-    @Override
-    public String toString() {
-        char c = '/';
-        if (this instanceof Circle) {
-            c = 'C';
-        } else if (this instanceof Rectangle) {
-            c = 'R';
-        }
-        return String.format("%c: %-5s%-10s%10.2f\n", c, id, color, weight());
+    public Color getColor() {
+        return color;
     }
 }

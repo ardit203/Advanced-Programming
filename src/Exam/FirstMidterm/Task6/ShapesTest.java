@@ -25,7 +25,7 @@ public class ShapesTest {
                 canvas.add(id, color, width, height);
             } else if (type == 3) {
                 float scaleFactor = Float.parseFloat(parts[2]);
-                System.out.println("ORIGINAL:");
+                System.out.println("ORIGNAL:");
                 System.out.print(canvas);
                 canvas.scale(id, scaleFactor);
                 System.out.printf("AFTER SCALING: %s %.2f\n", id, scaleFactor);

@@ -12,4 +12,6 @@ public interface Movable {
     public int getCurrentXPosition();
 
     public int getCurrentYPosition();
+
+    public TYPE getType();
 }

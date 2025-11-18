@@ -57,6 +57,11 @@ public class MovablePoint implements Movable {
     }
 
     @Override
+    public TYPE getType() {
+        return TYPE.POINT;
+    }
+
+    @Override
     public String toString() {
         return String.format("Movable point with coordinates (%d,%d)\n", x, y);
     }

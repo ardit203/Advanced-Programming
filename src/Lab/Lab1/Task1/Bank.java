@@ -25,15 +25,7 @@ public class Bank {
             double fromBalance = from.getBalance();
             double toBalance = to.getBalance();
             double amount = t.getAmount();
-            double provision;
-
-            if (t.getDescription().equals("FlatAmount")) {
-                FlatAmountProvisionTransaction fa = (FlatAmountProvisionTransaction) t;
-                provision = fa.getFlatAmount();
-            } else {
-                FlatPercentProvisionTransaction fp = (FlatPercentProvisionTransaction) t;
-                provision = fp.getPercent() / 100.0 * amount;
-            }
+            double provision = t.provision();
 
             if (provision + amount <= fromBalance) {
                 if (from.getId() == to.getId()) {

@@ -21,7 +21,7 @@ You need to implement the following methods:
 
 **Note:** You need to define the generics yourself.
 
-## 3. Task extension with Scheduler:
+## 3. Task extension with `Scheduler`:
 
 You need to implement the following methods in `Scheduler`:
 

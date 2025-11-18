@@ -20,4 +20,9 @@ public class Rectangle extends Shape {
     public float weight() {
         return width * height;
     }
+
+    @Override
+    public String toString() {
+        return String.format("R: %-5s%-10s%10.2f\n",getId(), getColor(), weight());
+    }
 }

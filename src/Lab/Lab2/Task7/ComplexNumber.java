@@ -1,7 +1,7 @@
 package Lab.Lab2.Task7;
 
 @SuppressWarnings("unchecked")
-public class ComplexNumber<T extends Number, U extends Number> implements Comparable {
+public class ComplexNumber<T extends Number, U extends Number> implements Comparable<ComplexNumber<?,?>> {
     private T real;
     private U imaginary;
 
@@ -33,9 +33,7 @@ public class ComplexNumber<T extends Number, U extends Number> implements Compar
     }
 
     @Override
-    @SuppressWarnings("unchecked")
-    public int compareTo(Object o) {
-        ComplexNumber<T, U> c = (ComplexNumber<T, U>) o;
-        return Double.compare(modul(), c.modul());
+    public int compareTo(ComplexNumber<?, ?> o) {
+        return Double.compare(modul(), o.modul());
     }
 }
