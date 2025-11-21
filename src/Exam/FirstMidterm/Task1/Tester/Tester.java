@@ -22,7 +22,7 @@ public class Tester {
     @Test
     void test1() throws IOException {
         tc.test(() -> tester.main(new String[0]),
-                "src/Exam/FirstMidterm/Task1/Tester/2.txt");
+                "src/Exam/FirstMidterm/Task1/Tester/1.txt");
         assertEquals(tc.expectedOutput, tc.actualOutput);
     }
 
@@ -36,7 +36,7 @@ public class Tester {
     @Test
     void test3() throws IOException {
         tc.test(() -> tester.main(new String[0]),
-                "src/Exam/FirstMidterm/Task1/Tester/2.txt");
+                "src/Exam/FirstMidterm/Task1/Tester/3.txt");
         assertEquals(tc.expectedOutput, tc.actualOutput);
     }
 
@@ -50,7 +50,7 @@ public class Tester {
     @Test
     void test5() throws IOException {
         tc.test(() -> tester.main(new String[0]),
-                "src/Exam/FirstMidterm/Task1/Tester/2.txt");
+                "src/Exam/FirstMidterm/Task1/Tester/5.txt");
         assertEquals(tc.expectedOutput, tc.actualOutput);
     }
 

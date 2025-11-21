@@ -24,7 +24,7 @@ public class Tester {
     @Test
     void test1() throws IOException {
         tc.test(() -> tester.main(new String[0]),
-                "src/Exam/FirstMidterm/Task4/Tester/2.txt");
+                "src/Exam/FirstMidterm/Task4/Tester/1.txt");
         assertEquals(tc.expectedOutput, tc.actualOutput);
     }
 

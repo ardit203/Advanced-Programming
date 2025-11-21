@@ -31,7 +31,7 @@ public class Tester {
                         throw new RuntimeException(e);
                     }
                 },
-                "src/Exam/FirstMidterm/Task5/Tester/2.txt");
+                "src/Exam/FirstMidterm/Task5/Tester/1.txt");
         assertEquals(tc.expectedOutput, tc.actualOutput);
     }
 
