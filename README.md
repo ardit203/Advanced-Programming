@@ -8,7 +8,7 @@ It serves as a place to organize and share my progress, solutions, and examples 
 
 ## 🧪 Structure of the Repository
 ```
-AdvancedProgramming/src
+AdvancedProgramming/src/
 │
 ├── Auditory_Exercises/         # Auditory (class) exercises and examples
 ├── Book/                       # Reference materials or book-related code
