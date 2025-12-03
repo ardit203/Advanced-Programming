@@ -2,7 +2,8 @@ package Lab.Lab3.Task3.Tester;
 
 import Lab.Lab3.Task3.EnrollmentsTest;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 import utils.TestCaseReader;
 
 import java.io.IOException;
@@ -12,48 +13,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Tester {
     private TestCaseReader tc;
     private EnrollmentsTest tester;
+    private final String filePath = "src/Lab/Lab3/Task3/Tester/";
 
     @BeforeEach
     void setUp(){
         tc = new TestCaseReader();
     }
 
-    @Test
-    void test1() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab3/Task3/Tester/2.txt");
+    @ParameterizedTest
+    @ValueSource(ints = {1,2,3,4,5})
+    void test(int n) throws IOException {
+        tc.test(() -> tester.main(new String[0]), filePath + n + ".txt");
         assertEquals(tc.expectedOutput, tc.actualOutput);
     }
-
-
-    @Test
-    void test2() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab3/Task3/Tester/2.txt");
-        assertEquals(tc.expectedOutput, tc.actualOutput);
-    }
-
-
-    @Test
-    void test3() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab3/Task3/Tester/3.txt");
-        assertEquals(tc.expectedOutput, tc.actualOutput);
-    }
-
-    @Test
-    void test4() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab3/Task3/Tester/4.txt");
-        assertEquals(tc.expectedOutput, tc.actualOutput);
-    }
-
-
-    @Test
-    void test5() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab3/Task3/Tester/5.txt");
-        assertEquals(tc.expectedOutput, tc.actualOutput);
-    }
-
 }

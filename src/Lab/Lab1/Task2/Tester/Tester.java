@@ -3,7 +3,8 @@ package Lab.Lab1.Task2.Tester;
 
 import Lab.Lab1.Task2.CirclesTest;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 import utils.TestCaseReader;
 
 import java.io.IOException;
@@ -13,35 +14,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Tester {
     private TestCaseReader tc;
     private CirclesTest tester;
+    private final String filePath = "src/Lab/Lab1/Task2/Tester/";
 
     @BeforeEach
     void setUp(){
         tc = new TestCaseReader();
     }
 
-    @Test
-    void test1() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab1/Task2/Tester/2.txt");
+    @ParameterizedTest
+    @ValueSource(ints = {1,2,3})
+    void test(int n) throws IOException {
+        tc.test(() -> tester.main(new String[0]), filePath + n + ".txt");
         assertEquals(tc.expectedOutput, tc.actualOutput);
     }
-
-
-    @Test
-    void test2() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab1/Task2/Tester/2.txt");
-        assertEquals(tc.expectedOutput, tc.actualOutput);
-    }
-
-
-    @Test
-    void test3() throws IOException {
-        tc.test(() -> tester.main(new String[0]),
-                "src/Lab/Lab1/Task2/Tester/3.txt");
-        assertEquals(tc.expectedOutput, tc.actualOutput);
-    }
-
-
-
 }

@@ -23,12 +23,8 @@ public class TermFrequency {
             for(String token : line.split("\\s+")) {
                 String word = processString(token);
 
-                if(word.isEmpty()){
+                if (word.isEmpty() || stop.contains(word)){
                     continue;
-                }
-
-                if(stop.contains(word)){
-                    stopWords.merge(word, 1, Integer::sum);
                 }
 
                 words.merge(word, 1, Integer::sum);
@@ -40,6 +36,8 @@ public class TermFrequency {
         return string.toLowerCase().replaceAll("[.,\\s]+", "");
 //        return string.toLowerCase().replaceAll("[\"'.,„“”\\s]+", "");
     }
+
+
 
     public int countTotal() {
         return words.values().stream().mapToInt(i -> i).sum();

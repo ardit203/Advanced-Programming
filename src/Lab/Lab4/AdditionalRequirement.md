@@ -49,3 +49,38 @@ Additions to task 2 from the quiz (Faculty, Students):
     9:  ---------------
     10:  -------------------
     ```
+  
+### Req 4
+
+### For Task 3 – `TermFrequency`
+
+Implement the method:
+
+```java
+public Map<Character, List<String>> groupByFirstLetter()
+```
+
+which returns a map where the key is the first letter of the words, and the value is a list of the words that start with that letter.
+The lists must be sorted alphabetically.
+
+
+
+Implement the method:
+
+```java
+public Map<String, Integer> countPrefixes(int prefixLength)
+```
+
+which returns a map where the key is a prefix of a given length, and the value is the number of words in the text that start with that prefix.
+Words shorter than the prefix length should be ignored.
+
+
+
+Implement the method:
+
+```java
+public Map<Integer, Set<String>> invertIndex()
+```
+
+which inverts the frequency map, so that the frequency becomes the key, and a set of the words with that frequency becomes the value.
+The sets must be sorted alphabetically.
