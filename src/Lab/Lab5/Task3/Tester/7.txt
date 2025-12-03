@@ -1,0 +1,45 @@
+INPUT:
+TechLibrary
+registerMember A10 Katerina
+registerMember A11 Andrej
+registerMember A12 Teodora
+registerMember A13 Luka
+registerMember A14 Monika
+addBook B1 AI_Roadmap Russell 2020
+addBook B1 AI_Roadmap Russell 2020
+addBook B1 AI_Roadmap Russell 2020
+addBook B2 Algorithms CLRS 2009
+addBook B3 Databases Silberschatz 2011
+borrowBook A10 B1
+borrowBook A11 B1
+borrowBook A12 B1
+borrowBook A13 B1
+borrowBook A14 B1
+returnBook A11 B1
+borrowBook A14 B2
+returnBook A10 B1
+borrowBook A10 B3
+returnBook A12 B1
+borrowBook A12 B2
+borrowBook A13 B3
+printBookCurrentBorrowers B1
+printMembers
+printBooks
+printTopAuthors
+END
+
+
+
+OUTPUT:
+A13, A14
+Monika (A14) - borrowed now: 2, total borrows: 2
+Katerina (A10) - borrowed now: 1, total borrows: 2
+Luka (A13) - borrowed now: 1, total borrows: 1
+Andrej (A11) - borrowed now: 0, total borrows: 1
+Teodora (A12) - borrowed now: 0, total borrows: 1
+B1 - "AI_Roadmap" by Russell (2020), available: 1, total borrows: 5
+B2 - "Algorithms" by CLRS (2009), available: 0, total borrows: 1
+B3 - "Databases" by Silberschatz (2011), available: 0, total borrows: 1
+Russell - 5
+CLRS - 1
+Silberschatz - 1

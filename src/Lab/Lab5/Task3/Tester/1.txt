@@ -1,0 +1,18 @@
+INPUT:
+CityLibrary
+registerMember M1 Ana
+registerMember M2 Bojan
+addBook ISBN1 Hobbit Tolkien 1937
+addBook ISBN1 Hobbit Tolkien 1937
+borrowBook M1 ISBN1
+borrowBook M2 ISBN1
+printMembers
+printBookCurrentBorrowers ISBN1
+END
+
+
+
+OUTPUT:
+Ana (M1) - borrowed now: 1, total borrows: 1
+Bojan (M2) - borrowed now: 1, total borrows: 1
+M1, M2

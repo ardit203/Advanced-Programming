@@ -1,0 +1,34 @@
+INPUT:
+addStudent S001 6 7 8 9 10
+addStudent S002 7 7 8
+addStudent S003 10 10
+addStudent S004 6 7 8 6 7
+addStudent S005 9 8
+addStudent S006 7 6 6 8 10
+getStudentsSortedByCoursesPassed
+addGrade S003 9
+addGrade S004 8
+addGrade S002 10
+addGrade S005 6
+addGrade S005 7
+addGrade S001 8
+addGrade S006 9
+getStudentsSortedByCoursesPassed
+exit
+
+
+OUTPUT:
+Sorting students by courses passed
+Student{id='S001', grades=[6, 7, 8, 9, 10]}
+Student{id='S006', grades=[7, 6, 6, 8, 10]}
+Student{id='S004', grades=[6, 7, 8, 6, 7]}
+Student{id='S002', grades=[7, 7, 8]}
+Student{id='S003', grades=[10, 10]}
+Student{id='S005', grades=[9, 8]}
+Sorting students by courses passed
+Student{id='S001', grades=[6, 7, 8, 9, 10, 8]}
+Student{id='S006', grades=[7, 6, 6, 8, 10, 9]}
+Student{id='S004', grades=[6, 7, 8, 6, 7, 8]}
+Student{id='S002', grades=[7, 7, 8, 10]}
+Student{id='S005', grades=[9, 8, 6, 7]}
+Student{id='S003', grades=[10, 10, 9]}

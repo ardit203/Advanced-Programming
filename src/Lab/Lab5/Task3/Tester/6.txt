@@ -1,0 +1,41 @@
+INPUT:
+GlobalLibrary
+registerMember M10 Elena
+registerMember M11 Darko
+registerMember M12 Filip
+registerMember M13 Maja
+registerMember M14 Tamara
+addBook S1 Stormlight Sanderson 2010
+addBook S1 Stormlight Sanderson 2010
+addBook S2 Mistborn Sanderson 2006
+addBook S3 Hyperion Simmons 1989
+borrowBook M10 S1
+borrowBook M11 S1
+borrowBook M12 S1
+borrowBook M13 S1
+borrowBook M14 S1
+returnBook M10 S1
+returnBook M11 S1
+borrowBook M14 S2
+borrowBook M13 S2
+borrowBook M12 S3
+printBookCurrentBorrowers S1
+printMembers
+printBooks
+printTopAuthors
+END
+
+
+
+OUTPUT:
+M12, M13
+Filip (M12) - borrowed now: 2, total borrows: 2
+Maja (M13) - borrowed now: 1, total borrows: 1
+Tamara (M14) - borrowed now: 1, total borrows: 1
+Darko (M11) - borrowed now: 0, total borrows: 1
+Elena (M10) - borrowed now: 0, total borrows: 1
+S1 - "Stormlight" by Sanderson (2010), available: 0, total borrows: 4
+S3 - "Hyperion" by Simmons (1989), available: 0, total borrows: 1
+S2 - "Mistborn" by Sanderson (2006), available: 0, total borrows: 1
+Sanderson - 5
+Simmons - 1

@@ -1,0 +1,17 @@
+INPUT:
+addStudent S001 6 7 8
+addStudent S002 9 10
+getStudentsSortedByAverageGrade
+addGrade S001 10
+addGrade S002 6
+getStudentsSortedByAverageGrade
+exit
+
+
+OUTPUT:
+Sorting students by average grade
+Student{id='S002', grades=[9, 10]}
+Student{id='S001', grades=[6, 7, 8]}
+Sorting students by average grade
+Student{id='S002', grades=[9, 10, 6]}
+Student{id='S001', grades=[6, 7, 8, 10]}

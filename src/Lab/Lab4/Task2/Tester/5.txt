@@ -1,0 +1,11 @@
+INPUT:
+addStudent S001 6 7 8
+addStudent S001 7 8 9
+getStudentsSortedByCoursesPassed
+exit
+
+
+OUTPUT:
+Student with ID S001 already exists
+Sorting students by courses passed
+Student{id='S001', grades=[6, 7, 8]}

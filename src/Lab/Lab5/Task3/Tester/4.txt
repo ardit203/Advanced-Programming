@@ -1,0 +1,31 @@
+INPUT:
+CityCentral
+registerMember M1 Sara
+registerMember M2 Blagoja
+registerMember M3 Kristina
+registerMember M4 Nikola
+addBook X1 Algebra Lay 2015
+addBook X1 Algebra Lay 2015
+addBook X2 Physics Halliday 2008
+borrowBook M1 X1
+borrowBook M2 X1
+borrowBook M3 X1
+borrowBook M4 X2
+printBookCurrentBorrowers X1
+returnBook M2 X1
+printBookCurrentBorrowers X1
+printMembers
+printTopAuthors
+END
+
+
+
+OUTPUT:
+M1, M2
+M1, M3
+Kristina (M3) - borrowed now: 1, total borrows: 1
+Nikola (M4) - borrowed now: 1, total borrows: 1
+Sara (M1) - borrowed now: 1, total borrows: 1
+Blagoja (M2) - borrowed now: 0, total borrows: 1
+Lay - 3
+Halliday - 1

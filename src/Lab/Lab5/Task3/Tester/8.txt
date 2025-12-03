@@ -1,0 +1,59 @@
+INPUT:
+GrandLibrary
+registerMember M1 Leo
+registerMember M2 Nina
+registerMember M3 Pero
+registerMember M4 Davor
+registerMember M5 Jana
+registerMember M6 Silvana
+addBook A10 Hamlet Shakespeare 1603
+addBook A10 Hamlet Shakespeare 1603
+addBook A11 Macbeth Shakespeare 1606
+addBook A20 Odyssey Homer 800
+addBook A21 Iliad Homer 750
+addBook A30 Utopia More 1516
+addBook A40 Faust Goethe 1808
+addBook A40 Faust Goethe 1808
+borrowBook M1 A10
+borrowBook M2 A10
+borrowBook M3 A10
+borrowBook M4 A10
+returnBook M2 A10
+borrowBook M5 A11
+borrowBook M6 A10
+returnBook M1 A10
+borrowBook M2 A21
+borrowBook M3 A20
+borrowBook M4 A40
+returnBook M3 A20
+borrowBook M3 A40
+borrowBook M1 A30
+returnBook M4 A40
+borrowBook M4 A40
+borrowBook M5 A40
+printBookCurrentBorrowers A10
+printMembers
+printBooks
+printTopAuthors
+END
+
+
+
+OUTPUT:
+M3, M4
+Davor (M4) - borrowed now: 2, total borrows: 3
+Pero (M3) - borrowed now: 2, total borrows: 3
+Jana (M5) - borrowed now: 1, total borrows: 1
+Leo (M1) - borrowed now: 1, total borrows: 2
+Nina (M2) - borrowed now: 1, total borrows: 2
+Silvana (M6) - borrowed now: 0, total borrows: 0
+A10 - "Hamlet" by Shakespeare (1603), available: 0, total borrows: 4
+A40 - "Faust" by Goethe (1808), available: 0, total borrows: 3
+A21 - "Iliad" by Homer (750), available: 0, total borrows: 1
+A20 - "Odyssey" by Homer (800), available: 1, total borrows: 1
+A30 - "Utopia" by More (1516), available: 0, total borrows: 1
+A11 - "Macbeth" by Shakespeare (1606), available: 0, total borrows: 1
+Shakespeare - 5
+Goethe - 3
+Homer - 2
+More - 1

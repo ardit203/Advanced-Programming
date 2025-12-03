@@ -1,0 +1,38 @@
+INPUT:
+MetroLibrary
+registerMember U1 Igor
+registerMember U2 Vesna
+registerMember U3 Renata
+registerMember U4 Martin
+addBook K1 Foundation Asimov 1951
+addBook K1 Foundation Asimov 1951
+addBook K1 Foundation Asimov 1951
+addBook K2 Neuromancer Gibson 1984
+addBook K3 Ringworld Niven 1970
+borrowBook U1 K1
+borrowBook U2 K1
+borrowBook U3 K1
+borrowBook U4 K1
+borrowBook U1 K2
+returnBook U2 K1
+returnBook U3 K1
+borrowBook U2 K3
+borrowBook U3 K2
+printMembers
+printBooks
+printTopAuthors
+END
+
+
+
+OUTPUT:
+Igor (U1) - borrowed now: 2, total borrows: 2
+Martin (U4) - borrowed now: 1, total borrows: 1
+Vesna (U2) - borrowed now: 1, total borrows: 2
+Renata (U3) - borrowed now: 0, total borrows: 1
+K1 - "Foundation" by Asimov (1951), available: 1, total borrows: 4
+K3 - "Ringworld" by Niven (1970), available: 0, total borrows: 1
+K2 - "Neuromancer" by Gibson (1984), available: 0, total borrows: 1
+Asimov - 4
+Gibson - 1
+Niven - 1

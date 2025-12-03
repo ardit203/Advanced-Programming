@@ -1,0 +1,27 @@
+INPUT:
+NationalLibrary
+registerMember A1 Petar
+registerMember A2 Jana
+registerMember A3 Viktor
+addBook B100 Dune Herbert 1965
+addBook B200 It King 1986
+addBook B200 It King 1986
+addBook B300 Solaris Lem 1961
+borrowBook A1 B200
+borrowBook A2 B200
+borrowBook A3 B200
+borrowBook A1 B100
+borrowBook A3 B300
+printBooks
+printTopAuthors
+END
+
+
+
+OUTPUT:
+B200 - "It" by King (1986), available: 0, total borrows: 2
+B300 - "Solaris" by Lem (1961), available: 0, total borrows: 1
+B100 - "Dune" by Herbert (1965), available: 0, total borrows: 1
+King - 2
+Herbert - 1
+Lem - 1
