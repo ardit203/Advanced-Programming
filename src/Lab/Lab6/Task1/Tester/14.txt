@@ -1,0 +1,19 @@
+INPUT:
+getPopularCourseCodes
+200
+
+
+OUTPUT:
+Testing method: getPopularCourseCodes
+SP
+APS
+OOP
+NP
+CAL1
+ALG
+BIO1
+MIC
+MAC
+FIN
+ACC
+ENG

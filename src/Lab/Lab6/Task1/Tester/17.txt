@@ -1,0 +1,14 @@
+INPUT:
+getAverageDifficultyPerDepartment
+
+
+OUTPUT:
+Testing method: getAverageDifficultyPerDepartment
+Economics -> 6.50
+Chemistry -> 7.50
+Computer Science -> 7.25
+Mathematics -> 6.75
+Biology -> 7.50
+Languages -> 4.50
+History -> 6.50
+Physics -> 7.50

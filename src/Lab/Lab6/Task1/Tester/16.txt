@@ -1,0 +1,9 @@
+INPUT:
+getTop3HardestCourses
+
+
+OUTPUT:
+Testing method: getTop3HardestCourses
+NP (Advanced Programming)
+PHY3 (Quantum Physics)
+CH3 (Physical Chemistry)

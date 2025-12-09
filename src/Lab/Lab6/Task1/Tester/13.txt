@@ -1,0 +1,18 @@
+INPUT:
+getCoursesByDifficultyRange
+8
+9
+
+
+OUTPUT:
+Testing method: getCoursesByDifficultyRange
+APS (Algorithms)
+NP (Advanced Programming)
+CAL2 (Calculus II)
+PHY2 (Electromagnetism)
+PHY3 (Quantum Physics)
+CH1 (Organic Chemistry)
+CH3 (Physical Chemistry)
+BIO2 (Genetics)
+BIO4 (Biochemistry)
+FIN (Finance)

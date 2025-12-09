@@ -1,0 +1,7 @@
+INPUT:
+getAverageEnrollmentPerCourse
+
+
+OUTPUT:
+Testing method: getAverageEnrollmentPerCourse
+251.25
