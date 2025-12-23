@@ -1,0 +1,16 @@
+INPUT:
+1000
+10
+deposit 50
+withdraw 30
+deposit 70
+withdraw 100
+withdraw 200
+deposit 150
+withdraw 400
+deposit 20
+withdraw 50
+withdraw 10
+
+OUTPUT:
+FINAL_BALANCE 500

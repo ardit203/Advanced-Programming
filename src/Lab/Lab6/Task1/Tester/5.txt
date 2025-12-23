@@ -1,0 +1,43 @@
+INPUT:
+groupByDifficulty
+
+OUTPUT:
+Testing method: groupByDifficulty
+Difficulty: 4
+ENG (English Language)
+ITA (Italian Language)
+Difficulty: 5
+SP (Structural Programming)
+ACC (Accounting)
+GER (German Language)
+FRE (French Language)
+Difficulty: 6
+CAL1 (Calculus I)
+STAT (Statistics)
+PHY4 (Optics)
+CH4 (Analytical Chemistry)
+BIO3 (Ecology)
+MIC (Microeconomics)
+HIS1 (Ancient History)
+HIS3 (Modern History)
+Difficulty: 7
+OOP (Object-Oriented Programming)
+ALG (Linear Algebra)
+PHY1 (Mechanics)
+CH2 (Inorganic Chemistry)
+BIO1 (Cell Biology)
+MAC (Macroeconomics)
+HIS2 (Medieval History)
+HIS4 (Contemporary History)
+Difficulty: 8
+APS (Algorithms)
+CAL2 (Calculus II)
+PHY2 (Electromagnetism)
+CH1 (Organic Chemistry)
+BIO2 (Genetics)
+FIN (Finance)
+Difficulty: 9
+NP (Advanced Programming)
+PHY3 (Quantum Physics)
+CH3 (Physical Chemistry)
+BIO4 (Biochemistry)

@@ -1,0 +1,6 @@
+INPUT:
+getEnrollmentStatistics
+
+OUTPUT:
+Testing method: getEnrollmentStatistics
+IntSummaryStatistics{count=32, sum=8040, min=100, average=251.250000, max=1100}

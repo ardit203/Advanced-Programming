@@ -1,0 +1,26 @@
+INPUT:
+100
+20
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+withdraw 10
+
+OUTPUT:
+FINAL_BALANCE 0

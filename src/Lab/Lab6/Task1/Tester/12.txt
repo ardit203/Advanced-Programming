@@ -1,0 +1,11 @@
+INPUT:
+getStudentsByDifficulty
+
+OUTPUT:
+Testing method: getStudentsByDifficulty
+4 -> 470
+5 -> 1700
+6 -> 1380
+7 -> 2210
+8 -> 1330
+9 -> 950

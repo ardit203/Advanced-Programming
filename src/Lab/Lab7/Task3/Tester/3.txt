@@ -1,0 +1,46 @@
+INPUT:
+1000
+40
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+withdraw 1
+
+OUTPUT:
+FINAL_BALANCE 960

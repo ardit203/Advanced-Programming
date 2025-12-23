@@ -1,0 +1,45 @@
+INPUT:
+getDepartmentToCourseNames
+
+OUTPUT:
+Testing method: getDepartmentToCourseNames
+Department: Economics
+Microeconomics
+Macroeconomics
+Finance
+Accounting
+Department: Chemistry
+Organic Chemistry
+Inorganic Chemistry
+Physical Chemistry
+Analytical Chemistry
+Department: Computer Science
+Structural Programming
+Algorithms
+Object-Oriented Programming
+Advanced Programming
+Department: Mathematics
+Calculus I
+Linear Algebra
+Statistics
+Calculus II
+Department: Biology
+Cell Biology
+Genetics
+Ecology
+Biochemistry
+Department: Languages
+English Language
+German Language
+French Language
+Italian Language
+Department: History
+Ancient History
+Medieval History
+Modern History
+Contemporary History
+Department: Physics
+Mechanics
+Electromagnetism
+Quantum Physics
+Optics

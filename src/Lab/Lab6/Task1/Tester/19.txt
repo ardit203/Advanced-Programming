@@ -1,0 +1,43 @@
+INPUT:
+mergeFourSmallestDepartments
+
+OUTPUT:
+Testing method: mergeFourSmallestDepartments
+Merged University Departments:
+Department: Economics
+Microeconomics
+Macroeconomics
+Finance
+Accounting
+Department: Computer Science
+Structural Programming
+Algorithms
+Object-Oriented Programming
+Advanced Programming
+Department: Mathematics
+Calculus I
+Linear Algebra
+Statistics
+Calculus II
+Department: Languages
+English Language
+German Language
+French Language
+Italian Language
+Department: Chemistry & Physics & History & Biology
+Organic Chemistry
+Inorganic Chemistry
+Physical Chemistry
+Analytical Chemistry
+Mechanics
+Electromagnetism
+Quantum Physics
+Optics
+Ancient History
+Medieval History
+Modern History
+Contemporary History
+Cell Biology
+Genetics
+Ecology
+Biochemistry

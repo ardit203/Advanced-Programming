@@ -1,0 +1,36 @@
+INPUT:
+500
+30
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+deposit 10
+withdraw 5
+
+OUTPUT:
+FINAL_BALANCE 575

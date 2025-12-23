@@ -1,0 +1,6 @@
+INPUT:
+getMostPopularDepartment
+
+OUTPUT:
+Testing method: getMostPopularDepartment
+Optional[Computer Science]

@@ -1,0 +1,54 @@
+INPUT:
+10
+7
+2
+Concurrency in modern programming languages allows multiple independent execution paths to run at the same time which can greatly improve throughput and responsiveness of applications
+However improper synchronization or incorrect assumptions about shared state can easily lead to subtle bugs that are extremely difficult to diagnose
+3
+1
+This single long line represents a simplified example of a text input that is intentionally verbose in order to stress test word and character counting logic in concurrent programs
+12
+3
+The ExecutorService abstraction simplifies thread management by decoupling task submission from execution policies which is a fundamental concept in concurrent system design
+Using Callable instead of Runnable allows tasks to return results and also to throw checked exceptions which improves error handling capabilities
+Futures act as placeholders for results that will become available at some point in the future once the computation completes
+1
+2
+Parallelism is not only about speed but also about structuring programs in a way that naturally exposes independent units of work
+Well designed concurrent programs often emphasize immutability message passing and clear ownership of shared resources
+9
+1
+A very long line of text that serves as a placeholder for realistic input such as documentation tutorials or academic writing where sentences tend to be lengthy and descriptive rather than short
+5
+3
+This line starts a longer text block and contains a significant amount of descriptive text to ensure proper word and character counting
+Another long line that continues the discussion and adds even more content to further increase the complexity of the input being processed
+Final line of this text block which concludes the example and provides enough length to test edge cases in text processing
+15
+2
+Concurrency bugs are notoriously hard to reproduce because they often depend on specific thread interleavings timing and system load which makes thorough testing essential
+As a result developers rely heavily on proper abstractions testing strategies and disciplined coding practices to avoid these issues
+2
+1
+This is yet another intentionally long and verbose line of text created for the sole purpose of increasing the size and realism of the test input for concurrent text processing tasks
+20
+3
+Long running tasks submitted to an executor service should be carefully managed especially in server applications where resources such as threads memory and CPU time are limited
+Timeouts cancellation and proper shutdown of executors are critical aspects of robust concurrent application design
+Neglecting these considerations can lead to resource leaks degraded performance and eventually system instability
+8
+2
+The final example text contains two long lines and serves to complete the set of ten texts required for this comprehensive stress test of the concurrent text counter implementation
+It ensures that the program can handle a larger batch of inputs and still produce correct results in a deterministic and sorted manner
+
+OUTPUT:
+1 2 36 248
+2 1 31 182
+3 1 29 180
+5 3 65 397
+7 2 46 332
+8 2 52 315
+9 1 32 194
+12 3 63 445
+15 2 43 304
+20 3 56 407

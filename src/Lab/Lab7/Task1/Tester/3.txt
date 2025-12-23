@@ -1,0 +1,19 @@
+INPUT:
+3
+5
+3
+Concurrency in Java allows multiple threads to execute tasks independently which can significantly improve performance on multi core systems
+However writing concurrent programs requires careful design synchronization and understanding of shared mutable state
+Mistakes in concurrent code are often subtle hard to reproduce and difficult to debug
+2
+2
+The ExecutorService framework provides a higher level replacement for working directly with threads and offers better control over task execution
+Using Callable and Future enables returning results from asynchronous computations
+9
+1
+Parallel programming is not about making programs faster but about structuring computations so that they can take advantage of modern hardware architectures
+
+OUTPUT:
+2 2 30 228
+5 3 47 344
+9 1 22 156

@@ -1,0 +1,12 @@
+INPUT:
+2
+1
+1
+This is a very long single line of text intended to test how the program handles counting words and characters when the line contains many different words separated by single spaces and no line breaks at all
+2
+1
+Another extremely long line that simulates realistic input such as a paragraph taken from documentation or a book where concurrency concepts are explained in detail and without any formatting
+
+OUTPUT:
+1 1 37 207
+2 1 29 191

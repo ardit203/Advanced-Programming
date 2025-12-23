@@ -1,0 +1,13 @@
+INPUT:
+getTotalCreditsPerDepartment
+
+OUTPUT:
+Testing method: getTotalCreditsPerDepartment
+Economics -> 24
+Chemistry -> 22
+Computer Science -> 24
+Mathematics -> 24
+Biology -> 23
+Languages -> 16
+History -> 20
+Physics -> 20
