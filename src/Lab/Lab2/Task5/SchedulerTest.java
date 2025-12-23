@@ -14,13 +14,13 @@ public class SchedulerTest {
     public static void main(String[] args) {
         Scanner jin = new Scanner(System.in);
         int k = jin.nextInt();
-        if (k == 0) { //test Timestamp with String
+        if (k == 0) { //test.txt Timestamp with String
             Timestamp<String> t = new Timestamp<>(TIME, jin.next());
             System.out.println(t);
             System.out.println(t.getTime());
             System.out.println(t.getElement());
         }
-        if (k == 1) { //test Timestamp with ints
+        if (k == 1) { //test.txt Timestamp with ints
             Timestamp<Integer> t1 = new Timestamp<>(TIME, jin.nextInt());
             System.out.println(t1);
             System.out.println(t1.getTime());
@@ -34,7 +34,7 @@ public class SchedulerTest {
             System.out.println(t1.equals(t2));
             System.out.println(t2.equals(t1));
         }
-        if (k == 2) {//test Timestamp with String, complex
+        if (k == 2) {//test.txt Timestamp with String, complex
             Timestamp<String> t1 = new Timestamp<>(ofEpochMS(jin.nextLong()), jin.next());
             System.out.println(t1);
             System.out.println(t1.getTime());
@@ -48,7 +48,7 @@ public class SchedulerTest {
             System.out.println(t1.equals(t2));
             System.out.println(t2.equals(t1));
         }
-        if (k == 3) { //test Scheduler with String
+        if (k == 3) { //test.txt Scheduler with String
             Scheduler<String> scheduler = new Scheduler<>();
             LocalDateTime now = LocalDateTime.now();
             scheduler.add(new Timestamp<>(now.minusHours(2), jin.next()));
@@ -67,7 +67,7 @@ public class SchedulerTest {
                     .collect(Collectors.joining(", "));
             System.out.println(out);
         }
-        if (k == 4) {//test Scheduler with ints complex
+        if (k == 4) {//test.txt Scheduler with ints complex
             Scheduler<Integer> scheduler = new Scheduler<>();
             int counter = 0;
             ArrayList<Timestamp<Integer>> forRemoval = new ArrayList<>();
@@ -88,7 +88,7 @@ public class SchedulerTest {
                 Collections.sort(res);
                 System.out.println(left + " <: " + print(res) + " >: " + right);
             }
-            System.out.println("test");
+            System.out.println("test.txt");
             List<Timestamp<Integer>> res = scheduler.getAll(ofEpochMS(0), ofEpochMS(Long.MAX_VALUE));
             Collections.sort(res);
             System.out.println(print(res));

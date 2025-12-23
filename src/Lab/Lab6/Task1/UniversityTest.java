@@ -262,6 +262,41 @@ class University {
 
         return new University(newDepartments);
     }
+
+    //Additional Requirement
+
+    public int getTotalCredits() {
+        return departments.stream()
+                .flatMap(d -> d.getCourses().stream())
+                .mapToInt(Course::getCredits)
+                .sum();
+    }
+
+    public List<Department> getDepartmentsWithAtLeastOneHardCourse(int difficultyThreshold) {
+        return departments.stream()
+                .filter(
+                        d -> d.getCourses()
+                                .stream()
+                                .anyMatch(c -> c.getDifficulty() > difficultyThreshold)
+                )
+                .collect(Collectors.toList());
+    }
+
+    public List<Course> getCoursesWithNameContaining(String substring){
+        return departments.stream()
+                .flatMap(d -> d.getCourses().stream())
+                .filter(c -> c.getName().contains(substring))
+                .collect(Collectors.toList());
+    }
+
+    public Optional<Department> getTopDepartmentByAverageDifficulty(){
+        return departments.stream()
+                .max(Comparator.comparing(
+                        d -> d.getCourses().stream()
+                                .mapToInt(Course::getDifficulty)
+                                .average().orElse(0)
+                ));
+    }
 }
 
 public class UniversityTest {

@@ -1,7 +1,0 @@
-INPUT:
-getHardestCourse
-
-
-OUTPUT:
-Testing method: getHardestCourse
-Optional[NP (Advanced Programming)]

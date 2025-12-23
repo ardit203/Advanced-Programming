@@ -33,7 +33,7 @@ public class ComplexNumberTest {
 	public static void main(String[] args) {
 		Scanner jin = new Scanner(System.in);
 		int k = jin.nextInt();
-		if ( k == 0 ) { //test simple functions int
+		if ( k == 0 ) { //test.txt simple functions int
 			int r = jin.nextInt();int i = jin.nextInt();
 			ComplexNumber<Integer, Integer> c = new ComplexNumber<Integer, Integer>(r, i);
 			System.out.println(c);
@@ -41,7 +41,7 @@ public class ComplexNumberTest {
 			System.out.println(c.getImaginary());
 			System.out.println(c.modul());
 		}
-		if ( k == 1 ) { //test simple functions float
+		if ( k == 1 ) { //test.txt simple functions float
 			float r = jin.nextFloat();
 			float i = jin.nextFloat();
 			ComplexNumber<Float, Float> c = new ComplexNumber<Float, Float>(r, i);
@@ -135,7 +135,7 @@ public class ComplexNumberTest {
     public static void main(String[] args) {
         Scanner jin = new Scanner(System.in);
         int k = jin.nextInt();
-        if (k == 0) { //test simple functions int
+        if (k == 0) { //test.txt simple functions int
             int r = jin.nextInt();
             int i = jin.nextInt();
             ComplexNumber<Integer, Integer> c = new ComplexNumber<Integer, Integer>(r, i);
@@ -144,7 +144,7 @@ public class ComplexNumberTest {
             System.out.println(c.getImaginary());
             System.out.println(c.modul());
         }
-        if (k == 1) { //test simple functions float
+        if (k == 1) { //test.txt simple functions float
             float r = jin.nextFloat();
             float i = jin.nextFloat();
             ComplexNumber<Float, Float> c = new ComplexNumber<Float, Float>(r, i);

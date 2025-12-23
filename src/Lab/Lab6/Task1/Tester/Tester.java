@@ -1,28 +1,43 @@
 package Lab.Lab6.Task1.Tester;
 import Lab.Lab6.Task1.UniversityTest;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.MethodSource;
+import utils.ScrapeCourses;
+import utils.Scraper;
 import utils.TestCaseReader;
 
 import java.io.IOException;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Tester {
-    private TestCaseReader tc;
+    private static TestCaseReader TC;
     private UniversityTest tester;
-    private final String filePath = "src/Lab/Lab6/Task1/Tester/";
+    private static String FILE_PATH;
+    private static Scraper SCRAPER;
 
-    @BeforeEach
-    void setUp(){
-        tc = new TestCaseReader();
+    @BeforeAll
+    static void test() throws IOException, InterruptedException {
+        FILE_PATH = "src/Lab/Lab6/Task1/Tester/";
+        SCRAPER = new ScrapeCourses("https://courses.finki.ukim.mk/mod/quiz/attempt.php?attempt=761630&cmid=167528");
+        TC = new TestCaseReader(FILE_PATH, SCRAPER);
     }
+
 
     @ParameterizedTest
-    @ValueSource(ints = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19})
+    @MethodSource("testFileProvider")
     void test(int n) throws IOException {
-        tc.test(() -> tester.main(new String[0]), filePath + n + ".txt");
-        assertEquals(tc.expectedOutput, tc.actualOutput);
+        TC.test(() -> tester.main(new String[0]), n);
+
+        assertEquals(TC.getIo().getExpectedOutput(), TC.getIo().getActualOutput());
     }
+
+    static Stream<Integer> testFileProvider(){
+        int n = TC.getNumFiles();
+        return IntStream.rangeClosed(1, n).boxed();
+    }
+
 }

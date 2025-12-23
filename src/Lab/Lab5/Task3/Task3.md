@@ -72,7 +72,7 @@ public class LibraryTester {
 
     try {
       String libraryName = br.readLine();
-    //   System.out.println(libraryName); //test
+    //   System.out.println(libraryName); //test.txt
       if (libraryName == null) return;
 
       libraryName = libraryName.trim();
@@ -383,7 +383,7 @@ public class LibraryTester {
 
     try {
       String libraryName = br.readLine();
-    //   System.out.println(libraryName); //test
+    //   System.out.println(libraryName); //test.txt
       if (libraryName == null) return;
 
       libraryName = libraryName.trim();

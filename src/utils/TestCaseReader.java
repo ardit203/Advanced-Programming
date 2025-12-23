@@ -2,60 +2,36 @@ package utils;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.List;
+import static utils.StringNormalizer.normalizeLines;
 
 
 public class TestCaseReader {
-    public String input;
-    public String expectedOutput;
-    public String actualOutput;
+    Scraper scraper;
+    FileManager fileManager;
+    InputOutput io;
 
-
-    public void readFile(Path filePath) throws IOException {
-        List<String> lines = Files.readAllLines(filePath);
-
-        StringBuilder inputBuilder = new StringBuilder();
-        StringBuilder outputBuilder = new StringBuilder();
-
-        boolean inInput = false;
-        boolean inOutput = false;
-
-        for (String line : lines) {
-            if (line.trim().equalsIgnoreCase("Input:")) {
-                inInput = true;
-                inOutput = false;
-                continue;
-            }
-            if (line.trim().equalsIgnoreCase("Output:")) {
-                inInput = false;
-                inOutput = true;
-                continue;
-            }
-
-            if (inInput) {
-                inputBuilder.append(line).append("\n");
-            } else if (inOutput) {
-                outputBuilder.append(line).append("\n");
-            }
-        }
-
-
-        input = normalizeLines(inputBuilder.toString());
-        expectedOutput = normalizeLines(outputBuilder.toString());
+    public TestCaseReader(String path, Scraper scraper) throws IOException, InterruptedException {
+        this.scraper = scraper;
+        this.fileManager = new FileManager(path);
+        this.io = new InputOutput();
+        init();
     }
 
+    public void init() throws IOException, InterruptedException {
+        if(!fileManager.exists()){
+            fileManager.createFiles(scraper.scrape());
+        }
+    }
 
-    public void test(Runnable mainMethod, String path) throws IOException {
-        readFile(Path.of(path));
+    public void test(Runnable mainMethod, int i) throws IOException {
+        io = fileManager.readFile(i);
 
         InputStream originalIn = System.in;
         PrintStream originalOut = System.out;
 
         try {
             ByteArrayInputStream testIn =
-                    new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8));
+                    new ByteArrayInputStream(io.getInput().getBytes(StandardCharsets.UTF_8));
             System.setIn(testIn);
 
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -65,7 +41,7 @@ public class TestCaseReader {
             mainMethod.run();
 
             testOut.flush();
-            actualOutput = normalizeLines(baos.toString(StandardCharsets.UTF_8));
+            io.setActualOutput(normalizeLines(baos.toString(StandardCharsets.UTF_8)));
 
 
         } finally {
@@ -74,24 +50,12 @@ public class TestCaseReader {
         }
     }
 
-
-    private String normalizeLines(String s) {
-        if (s == null) return "";
-
-        String result = s
-                .replace("\r\n", "\n")
-                .replace("\r", "\n");
-
-        // remove literal "\t"
-        result = result.replaceAll("\\\\t", "\t");
-
-        // remove trailing spaces / real tabs at end of each line
-        result = result.replaceAll("(?m)[ \\t]+$", "");
-        // remove trailing newlines at the END of the string
-        result = result.replaceAll("\n+$", "");
-
-        return result;
+    public InputOutput getIo(){
+        return io;
     }
 
+    public int getNumFiles(){
+        return fileManager.getNumFiles();
+    }
 
 }

@@ -9,7 +9,7 @@ public class QueueTest {
     public static void main(String[] args) throws EmptyQueueException {
         Scanner jin = new Scanner(System.in);
         int k = jin.nextInt();
-        if (k == 0) { //Simple test case with one int element
+        if (k == 0) { //Simple test.txt case with one int element
             int t = jin.nextInt();
             Queue<Integer> queue = new Queue<Integer>();
             System.out.println("Queue empty? - " + queue.isEmpty());
@@ -22,7 +22,7 @@ public class QueueTest {
             System.out.println("Queue empty? - " + queue.isEmpty());
             System.out.println("Queue count? - " + queue.count());
         }
-        if (k == 1) { //a more complex test with strings
+        if (k == 1) { //a more complex test.txt with strings
             Queue<String> queue = new Queue<String>();
             int counter = 0;
             while (jin.hasNextInt()) {

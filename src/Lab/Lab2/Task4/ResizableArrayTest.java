@@ -8,7 +8,7 @@ public class ResizableArrayTest {
     public static void main(String[] args) {
         Scanner jin = new Scanner(System.in);
         int test = jin.nextInt();
-        if (test == 0) { //test ResizableArray on ints
+        if (test == 0) { //test.txt ResizableArray on ints
             ResizableArray<Integer> a = new ResizableArray<Integer>();
             System.out.println(a.count());
             int first = jin.nextInt();
@@ -26,7 +26,7 @@ public class ResizableArrayTest {
             System.out.println(a.contains(first));
             System.out.println(a.count());
         }
-        if (test == 1) { //test ResizableArray on strings
+        if (test == 1) { //test.txt ResizableArray on strings
             ResizableArray<String> a = new ResizableArray<String>();
             System.out.println(a.count());
             String first = jin.next();
@@ -72,7 +72,7 @@ public class ResizableArrayTest {
             System.out.println(b.contains(first));
             System.out.println(b.contains(last));
         }
-        if (test == 2) { //test IntegerArray
+        if (test == 2) { //test.txt IntegerArray
             IntegerArray a = new IntegerArray();
             System.out.println(a.isEmpty());
             while (jin.hasNextInt()) {
@@ -101,7 +101,7 @@ public class ResizableArrayTest {
             System.out.println(a.contains(jin.nextInt()));
             System.out.println(a.contains(jin.nextInt()));
         }
-        if (test == 3) { //test insanely large arrays
+        if (test == 3) { //test.txt insanely large arrays
             LinkedList<ResizableArray<Integer>> resizable_arrays = new LinkedList<ResizableArray<Integer>>();
             for (int w = 0; w < 500; ++w) {
                 ResizableArray<Integer> a = new ResizableArray<Integer>();

@@ -24,7 +24,7 @@ public class SchedulerTest {
 			System.out.println(scheduler.getFirst());
 			System.out.println(scheduler.getLast());
 		}
-		if ( k == 3 ) { //test Scheduler with String
+		if ( k == 3 ) { //test.txt Scheduler with String
 			Scheduler<String> scheduler = new Scheduler<String>();
 			Date now = new Date();
 			scheduler.add(new Date(now.getTime()-7200000), jin.next());
@@ -42,7 +42,7 @@ public class SchedulerTest {
 				System.out.print(t+" , ");
 			}
 		}
-		if ( k == 4 ) {//test Scheduler with ints complex
+		if ( k == 4 ) {//test.txt Scheduler with ints complex
 			Scheduler<Integer> scheduler = new Scheduler<Integer>();
 			int counter = 0;
 			ArrayList<Date> to_remove = new ArrayList<Date>();
@@ -65,7 +65,7 @@ public class SchedulerTest {
 				Collections.sort(res);
 				System.out.println(l+" <: "+print(res)+" >: "+h);
 			}
-			System.out.println("test");
+			System.out.println("test.txt");
 			ArrayList<Integer> res = scheduler.getAll(new Date(0),new Date(Long.MAX_VALUE));
 			Collections.sort(res);
 			System.out.println(print(res));

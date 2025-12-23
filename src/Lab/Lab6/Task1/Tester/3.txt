@@ -1,7 +1,0 @@
-INPUT:
-getTotalStudentCount
-
-
-OUTPUT:
-Testing method: getTotalStudentCount
-8040
