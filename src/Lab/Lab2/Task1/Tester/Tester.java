@@ -1,29 +1,44 @@
-//package Lab.Lab2.Task1.Tester;
-//
-//import Lab.Lab2.Task1.LocalDateTest;
-//import org.junit.jupiter.api.BeforeEach;
-//import org.junit.jupiter.params.ParameterizedTest;
-//import org.junit.jupiter.params.provider.ValueSource;
-//import utils.TestCaseReader;
-//
-//import java.io.IOException;
-//
-//import static org.junit.jupiter.api.Assertions.assertEquals;
-//
-//public class Tester {
-//    private TestCaseReader tc;
-//    private LocalDateTest tester;
-//    private final String filePath = "src/Lab/Lab2/Task1/Tester/";
-//
-//    @BeforeEach
-//    void setUp(){
-//        tc = new TestCaseReader();
-//    }
-//
-//    @ParameterizedTest
-//    @ValueSource(ints = {1})
-//    void test(int n) throws IOException {
-//        tc.test(() -> tester.main(new String[0]), filePath + n + ".txt");
-//        assertEquals(tc.expectedOutput, tc.actualOutput);
-//    }
-//}
+package Lab.Lab2.Task1.Tester;
+
+import Lab.Lab2.Task1.LocalDateTest;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
+import utils.ScrapeCourses;
+import utils.Scraper;
+import utils.TestCaseReader;
+
+import java.io.IOException;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class Tester {
+    private static TestCaseReader TC;
+    private LocalDateTest tester;
+    private static String FILE_PATH;
+    private static Scraper SCRAPER;
+
+    @BeforeAll
+    static void test() throws IOException, InterruptedException {
+        FILE_PATH = "src/Lab/Lab2/Task1/Tester/";
+        SCRAPER = new ScrapeCourses("https://courses.finki.ukim.mk/mod/quiz/attempt.php?attempt=729487&cmid=166114");
+        TC = new TestCaseReader(FILE_PATH, SCRAPER);
+    }
+
+
+    @ParameterizedTest
+    @MethodSource("testFileProvider")
+    void test(int n) throws IOException {
+        TC.test(() -> tester.main(new String[0]) , n);
+
+        assertEquals(TC.getIo().getExpectedOutput(), TC.getIo().getActualOutput());
+    }
+
+    static Stream<Integer> testFileProvider(){
+        int n = TC.getNumFiles();
+        return IntStream.rangeClosed(1, n).boxed();
+    }
+
+}

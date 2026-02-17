@@ -315,12 +315,6 @@ class StudyProgramme implements Comparable<StudyProgramme> {
 
     @Override
     public int compareTo(StudyProgramme other) {
-        //In the text this is the comparison they're asking for, but it's FINKI
-//        return Comparator.comparingInt(StudyProgramme::appropriateSubjects).reversed() // asc
-//                .thenComparing(Comparator.comparing(StudyProgramme::getPercentage).reversed()) // desc
-//                .thenComparing(Comparator.comparing(StudyProgramme::totalPoints).reversed())
-//                .compare(this, other);
-        
         return Comparator.comparingDouble(StudyProgramme::getPercentage).reversed().compare(this, other);
     }
 
