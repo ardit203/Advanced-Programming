@@ -1,0 +1,12 @@
+INPUT:
+generalCheckup P1 V1
+addBloodTest V1
+specialist P1 V2
+generalCheckup P1 V3
+addUrineTest V3
+specialist P2 V4
+numberOfVisitsForPatient P1
+END
+
+OUTPUT:
+3

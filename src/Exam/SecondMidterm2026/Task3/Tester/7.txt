@@ -1,0 +1,19 @@
+INPUT:
+ADD_USER anna
+ADD_USER mark
+SUBSCRIBE_CATEGORY anna Travel
+SUBSCRIBE_AUTHOR mark BobBrown
+PUBLISH Travel BobBrown 2025-01-01T08:00 Paris_Guide
+PUBLISH Sports BobBrown 2025-01-01T09:00 Tennis_Final
+PRINT anna
+PRINT mark
+
+OUTPUT:
+News for user: anna
+[2025-01-01T08:00] BobBrown - Travel
+Paris_Guide
+News for user: mark
+[2025-01-01T08:00] BobBrown - Travel
+Paris_Guide
+[2025-01-01T09:00] BobBrown - Sports
+Tennis_Final

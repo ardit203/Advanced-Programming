@@ -1,0 +1,8 @@
+INPUT:
+generalCheckup P1 V1
+addBloodTest V1
+generalCheckup P1 V2
+addBloodTest V2
+END
+
+OUTPUT:

@@ -1,0 +1,70 @@
+INPUT:
+np.finki
+This is a test post for Advanced programming
+addComment;user1;0;Pull class hold. Response Mrs shake make. Outside song dinner never travel remember heavy.
+addComment;user3;1;Fear end relate. Least including leg thing friend.
+addComment;user1;2;Maintain family own condition either.;0
+addComment;user1;3;Company camera after consider will rest. Traditional side college record when.
+addComment;user3;4;Property may sport. Tell smile voice really beyond.
+addComment;user1;5;Check shoulder piece feeling magazine. Success work total. Red someone whatever star.;3
+addComment;user3;6;Fast forget chair. Its free race. Law agency discuss simply full.
+addComment;user3;7;Hold decade must sort together lead shake. Street chance Mr financial everyone.;0
+addComment;user2;8;Knowledge sometimes threat artist write dream claim. Couple teacher any discussion. Quality door yet crime hope.
+addComment;user2;9;Imagine player sign within fly fill question. Bring accept investment way set middle general.
+addComment;user3;10;Life huge another. Walk form history would article energy.
+addComment;user1;11;Herself speech debate example. Center itself affect later rise either. Spend agent animal perform early blue they. Happen billion just market.
+addComment;user1;12;High enter maybe point. Newspaper threat run with. Already right drop forget consumer ago son.;0
+addComment;user2;13;Else save include moment. Stock follow see particularly here address long. Both party government soon.;12
+addComment;user3;14;Its onto more eye message money law. Particularly ask item different newspaper. Nothing special yes prepare participant agree.
+likes;0;0;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;3;3;3;4;4;4;4;4;4;4;4;5;5;6;6;6;6;7;7;7;7;7;7;8;8;8;9;9;9;9;10;10;10;10;10;10;11;11;11;11;11;12;12;12;12;12;12;12;13;13;13;13;13;13;13;13;14;14;14;14
+print
+
+OUTPUT:
+Post: This is a test post for Advanced programming
+Written by: np.finki
+Comments:
+        Comment: Pull class hold. Response Mrs shake make. Outside song dinner never travel remember heavy.
+        Written by: user1
+        Likes: 2
+            Comment: High enter maybe point. Newspaper threat run with. Already right drop forget consumer ago son.
+            Written by: user1
+            Likes: 7
+                Comment: Else save include moment. Stock follow see particularly here address long. Both party government soon.
+                Written by: user2
+                Likes: 8
+            Comment: Maintain family own condition either.
+            Written by: user1
+            Likes: 9
+            Comment: Hold decade must sort together lead shake. Street chance Mr financial everyone.
+            Written by: user3
+            Likes: 6
+        Comment: Property may sport. Tell smile voice really beyond.
+        Written by: user3
+        Likes: 8
+        Comment: Fear end relate. Least including leg thing friend.
+        Written by: user3
+        Likes: 7
+        Comment: Life huge another. Walk form history would article energy.
+        Written by: user3
+        Likes: 6
+        Comment: Company camera after consider will rest. Traditional side college record when.
+        Written by: user1
+        Likes: 3
+            Comment: Check shoulder piece feeling magazine. Success work total. Red someone whatever star.
+            Written by: user1
+            Likes: 2
+        Comment: Herself speech debate example. Center itself affect later rise either. Spend agent animal perform early blue they. Happen billion just market.
+        Written by: user1
+        Likes: 5
+        Comment: Fast forget chair. Its free race. Law agency discuss simply full.
+        Written by: user3
+        Likes: 4
+        Comment: Imagine player sign within fly fill question. Bring accept investment way set middle general.
+        Written by: user2
+        Likes: 4
+        Comment: Its onto more eye message money law. Particularly ask item different newspaper. Nothing special yes prepare participant agree.
+        Written by: user3
+        Likes: 4
+        Comment: Knowledge sometimes threat artist write dream claim. Couple teacher any discussion. Quality door yet crime hope.
+        Written by: user2
+        Likes: 3

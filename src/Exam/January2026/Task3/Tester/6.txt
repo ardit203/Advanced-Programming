@@ -1,0 +1,26 @@
+INPUT:
+p01 PARIS:1200 ROME:800 BERLIN:450
+p02 PARIS:500 LONDON:700 MADRID:300
+p03 ROME:900 ATHENS:650
+p04 LONDON:400 BERLIN:600
+p05 ATHENS:200 PARIS:300
+p06 MADRID:500 LISBON:350
+p07 LISBON:200 ROME:1000
+p08 BERLIN:1500
+p09 PARIS:2500 LONDON:200
+p10 TOKYO:3000 PARIS:100
+p11 TOKYO:500 SEOUL:700
+p12 SEOUL:800 PARIS:900
+---
+GROUP
+
+OUTPUT:
+Destination [ATHENS] passengers [2]
+Destination [BERLIN] passengers [3]
+Destination [LISBON] passengers [2]
+Destination [LONDON] passengers [3]
+Destination [MADRID] passengers [2]
+Destination [PARIS] passengers [6]
+Destination [ROME] passengers [3]
+Destination [SEOUL] passengers [2]
+Destination [TOKYO] passengers [2]

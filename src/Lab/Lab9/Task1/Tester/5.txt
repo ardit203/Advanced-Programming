@@ -1,0 +1,50 @@
+INPUT:
+3
+doc1
+8
+This is the first document
+It contains some sensitive data
+Students should not share answers
+The decorator pattern is useful
+This document is for testing
+Some words must be redacted
+Secret information is hidden
+End of the first document
+doc2
+9
+Another document starts here
+This text is public
+No secrets are included
+But the word secret appears here
+Redaction should hide it
+Line numbers may be useful
+Word count is also required
+Order of decorators matters
+End of second document
+doc3
+8
+Final document example
+This one will use all features
+Decorator order is different
+Some lines contain secret words
+Others contain public content
+Word counting is tricky
+Redaction must ignore case
+End of final document
+enableRedaction doc1 secret sensitive answers
+enableLineNumbers doc1
+enableWordCount doc1
+display doc1
+exit
+
+OUTPUT:
+=== Document doc1 ===
+1: This is the first document
+2: It contains some * data
+3: Students should not share *
+4: The decorator pattern is useful
+5: This document is for testing
+6: Some words must be redacted
+7: * information is hidden
+8: End of the first document
+Words: 47

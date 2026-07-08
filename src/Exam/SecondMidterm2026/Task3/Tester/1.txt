@@ -1,0 +1,11 @@
+INPUT:
+ADD_USER alice
+SUBSCRIBE_CATEGORY alice Technology
+PUBLISH Technology JohnDoe 2025-01-01T10:00 New_AI_Model_Released
+PUBLISH Sports BobBrown 2025-01-01T11:00 Big_Match_Tonight
+PRINT alice
+
+OUTPUT:
+News for user: alice
+[2025-01-01T10:00] JohnDoe - Technology
+New_AI_Model_Released

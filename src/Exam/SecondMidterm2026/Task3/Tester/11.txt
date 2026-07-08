@@ -1,0 +1,19 @@
+INPUT:
+ADD_USER alice
+SUBSCRIBE_CATEGORY alice Technology
+PUBLISH Technology JohnDoe 2025-01-01T08:00 Tech_1
+SUBSCRIBE_CATEGORY alice Science
+PUBLISH Science AliceSmith 2025-01-01T09:00 Science_1
+UNSUBSCRIBE_CATEGORY alice Technology
+PUBLISH Technology JohnDoe 2025-01-01T10:00 Tech_2
+PUBLISH Science AliceSmith 2025-01-01T11:00 Science_2
+PRINT alice
+
+OUTPUT:
+News for user: alice
+[2025-01-01T08:00] JohnDoe - Technology
+Tech_1
+[2025-01-01T09:00] AliceSmith - Science
+Science_1
+[2025-01-01T11:00] AliceSmith - Science
+Science_2

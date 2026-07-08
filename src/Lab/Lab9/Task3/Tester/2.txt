@@ -1,0 +1,26 @@
+INPUT:
+13
+CREATE_LIST FINKI
+CREATE_LIST JAVA
+ADD_USER FINKI NORMAL Ana ana@finki.mk
+ADD_USER FINKI FILTERED Bojan bojan@finki.mk exam
+ADD_USER FINKI ADMIN Admin admin@finki.mk
+ADD_USER JAVA NORMAL Clara clara@java.mk
+ADD_USER JAVA FILTERED David david@java.mk homework
+ADD_USER JAVA ADMIN Admin2 admin2@java.mk
+PUBLISH FINKI Lab 1 is out
+PUBLISH JAVA Homework 3 is assigned
+REMOVE_USER FINKI ana@finki.mk
+PUBLISH FINKI Exam schedule is updated
+PUBLISH JAVA Final project deadline
+
+OUTPUT:
+[USER] Ana received email from FINKI: Lab 1 is out
+[ADMIN LOG] MailingList=FINKI | Message=Lab 1 is out
+[USER] Clara received email from JAVA: Homework 3 is assigned
+[FILTERED USER] David received filtered email from JAVA: Homework 3 is assigned
+[ADMIN LOG] MailingList=JAVA | Message=Homework 3 is assigned
+[FILTERED USER] Bojan received filtered email from FINKI: Exam schedule is updated
+[ADMIN LOG] MailingList=FINKI | Message=Exam schedule is updated
+[USER] Clara received email from JAVA: Final project deadline
+[ADMIN LOG] MailingList=JAVA | Message=Final project deadline

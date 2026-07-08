@@ -1,0 +1,12 @@
+INPUT:
+ADD_PRODUCT P1 Laptop 1000 5
+
+OPEN_BASKET B1 U1
+ADD_TO_BASKET B1 P1 6
+
+GET_PRODUCT P1
+
+END
+
+OUTPUT:
+Laptop | price=1000 | available=5 | sold=0

@@ -1,0 +1,19 @@
+INPUT:
+8
+CREATE_LIST FINKI
+ADD_USER FINKI NORMAL Ana ana@finki.mk
+ADD_USER FINKI FILTERED Bojan bojan@finki.mk exam
+ADD_USER FINKI ADMIN Admin admin@finki.mk
+PUBLISH FINKI New lab exercises are published
+PUBLISH FINKI Exam schedule is available
+REMOVE_USER FINKI ana@finki.mk
+PUBLISH FINKI Final exam info
+
+OUTPUT:
+[USER] Ana received email from FINKI: New lab exercises are published
+[ADMIN LOG] MailingList=FINKI | Message=New lab exercises are published
+[USER] Ana received email from FINKI: Exam schedule is available
+[FILTERED USER] Bojan received filtered email from FINKI: Exam schedule is available
+[ADMIN LOG] MailingList=FINKI | Message=Exam schedule is available
+[FILTERED USER] Bojan received filtered email from FINKI: Final exam info
+[ADMIN LOG] MailingList=FINKI | Message=Final exam info

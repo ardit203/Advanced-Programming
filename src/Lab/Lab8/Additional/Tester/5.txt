@@ -1,0 +1,58 @@
+INPUT:
+250
+addTravelExpense;Gorazd;Engineer;IC;Berlin Conference;300;2025-05-01T09:00;2025-05-04T20:00;DE
+addReceiptExpense;Gorazd;Engineer;IC;Coffee Before Trip;CafeMitte;2025-04-30T10:00;Americano|non-alcohol beverage|4,Croissant|food|5
+addReceiptExpense;Gorazd;Engineer;IC;Lunch During Travel;Deli;2025-05-02T13:00;Sandwich|food|8,Tea|non-alcohol beverage|3
+addReceiptExpense;Blagoj;QA;IC;Team Snack;MarketCo;2025-05-03T15:00;Chips|food|5,Soda|non-alcohol beverage|3
+addReceiptExpense;Blagoj;QA;IC;Office Coffee;CoffeeGo;2025-05-04T09:30;Cappuccino|non-alcohol beverage|4
+addReceiptExpense;Blagoj;QA;IC;Big Shopping;HyperMarket;2025-05-05T11:00;TV|electronics|300
+addTravelExpense;Stefan;TeamLead;M;London Visit;250;2025-05-10T08:00;2025-05-12T23:00;UK
+addReceiptExpense;Stefan;TeamLead;M;Breakfast After Travel;Costa;2025-05-13T09:00;Latte|non-alcohol beverage|5,Toast|food|7
+addReceiptExpense;Stefan;TeamLead;M;Client Drinks;SkyBar;2025-05-13T20:00;Wine|alcohol beverage|15,Beer|alcohol beverage|8
+addReceiptExpense;Stefan;TeamLead;M;Lunch During Travel;PretAManger;2025-05-11T12:00;Wrap|food|10,Coke|non-alcohol beverage|4
+addReceiptExpense;Ana;Manager;M;Client Dinner;BistroLux;2025-05-07T20:00;Steak|food|45,Wine|alcohol beverage|25,Taxi|transport|12,Flowers|gift|20
+addReceiptExpense;Ana;Manager;M;Small Office Snack;MiniMarket;2025-05-08T10:00;Cookie|food|3,Juice|non-alcohol beverage|4
+addReceiptExpense;Ivan;Manager;M;Morning Coffee;CoffeeBox;2025-05-14T08:00;FlatWhite|non-alcohol beverage|4
+addTravelExpense;Ivan;Manager;M;Workshop Warsaw;200;2025-05-14T09:00;2025-05-17T19:00;PL
+addReceiptExpense;Ivan;Manager;M;Snack Overlap;SnackBar;2025-05-14T09:00;Banana|food|2,Coffee|non-alcohol beverage|4
+addReceiptExpense;Ivan;Manager;M;Return Lunch;DeliWarsaw;2025-05-18T13:00;Sandwich|food|8,Tea|non-alcohol beverage|3
+addReceiptExpense;Gjorgji;CFO;C;Executive Dinner;PremiumSteak;2025-05-09T21:00;Steak|food|90,Wine|alcohol beverage|40,Dessert|food|15
+addReceiptExpense;Gjorgji;CFO;C;Hotel MiniBar;HotelPremium;2025-05-10T23:30;Whiskey|alcohol beverage|30,Snacks|food|10
+addReceiptExpense;Dejan;CTO;C;Brunch After Trip;CafeSF;2025-05-26T12:00;AvocadoToast|food|15,Latte|non-alcohol beverage|5
+addReceiptExpense;Dejan;CTO;C;On Trip Cocktail;BarSF;2025-05-22T20:00;Cocktail|alcohol beverage|12
+addReceiptExpense;Ana;Manager;M;Drinks;CoffeeTime;2025-05-09T11:00;Mocha|non-alcohol beverage|6
+addReceiptExpense;Ivan;Manager;M;Office Breakfast;Bakery;2025-05-19T09:00;Bagel|food|5
+addReceiptExpense;Gorazd;Engineer;IC;Groceries;Market;2025-05-06T18:00;Milk|non-alcohol beverage|2,Bread|food|3
+addReceiptExpense;Blagoj;QA;IC;Ice Cream;Gelato;2025-05-07T14:00;Vanilla|food|3
+addReceiptExpense;Stefan;TeamLead;M;Timing Edge Case;Pub;2025-05-12T23:00;Beer|alcohol beverage|7
+addReceiptExpense;Dejan;CTO;C;Coffee Break;CoffeeSF;2025-05-27T10:00;Espresso|non-alcohol beverage|4
+printRefunds
+END
+
+OUTPUT:
+You cannot add receipt expense in the same period during an approved travel expense.
+Receipt with amount 300.00 exceeds the max allowed amount for receipt expense 250.00
+You cannot add receipt expense in the same period during an approved travel expense.
+TravelExpense: employee={Employee: name=Gorazd, title=Engineer, level=IC}, description=Berlin Conference, baseAmount=300.00 USD, country=DE, start=2025-05-01T09:00, end=2025-05-04T20:00, refund=435.00 USD
+TravelExpense: employee={Employee: name=Stefan, title=TeamLead, level=M}, description=London Visit, baseAmount=250.00 USD, country=UK, start=2025-05-10T08:00, end=2025-05-12T23:00, refund=350.00 USD
+TravelExpense: employee={Employee: name=Ivan, title=Manager, level=M}, description=Workshop Warsaw, baseAmount=200.00 USD, country=PL, start=2025-05-14T09:00, end=2025-05-17T19:00, refund=275.00 USD
+ReceiptExpense: employee={Employee: name=Gjorgji, title=CFO, level=C}, description=Executive Dinner, receiptAmount=145.00 USD, receiptDate=2025-05-09T21:00, itemsCount=3, refund=145.00 USD
+ReceiptExpense: employee={Employee: name=Ana, title=Manager, level=M}, description=Client Dinner, receiptAmount=102.00 USD, receiptDate=2025-05-07T20:00, itemsCount=4, refund=82.00 USD
+ReceiptExpense: employee={Employee: name=Gjorgji, title=CFO, level=C}, description=Hotel MiniBar, receiptAmount=40.00 USD, receiptDate=2025-05-10T23:30, itemsCount=2, refund=40.00 USD
+ReceiptExpense: employee={Employee: name=Stefan, title=TeamLead, level=M}, description=Client Drinks, receiptAmount=23.00 USD, receiptDate=2025-05-13T20:00, itemsCount=2, refund=23.00 USD
+ReceiptExpense: employee={Employee: name=Dejan, title=CTO, level=C}, description=Brunch After Trip, receiptAmount=20.00 USD, receiptDate=2025-05-26T12:00, itemsCount=2, refund=20.00 USD
+ReceiptExpense: employee={Employee: name=Stefan, title=TeamLead, level=M}, description=Breakfast After Travel, receiptAmount=12.00 USD, receiptDate=2025-05-13T09:00, itemsCount=2, refund=12.00 USD
+ReceiptExpense: employee={Employee: name=Dejan, title=CTO, level=C}, description=On Trip Cocktail, receiptAmount=12.00 USD, receiptDate=2025-05-22T20:00, itemsCount=1, refund=12.00 USD
+ReceiptExpense: employee={Employee: name=Ivan, title=Manager, level=M}, description=Return Lunch, receiptAmount=11.00 USD, receiptDate=2025-05-18T13:00, itemsCount=2, refund=11.00 USD
+ReceiptExpense: employee={Employee: name=Gorazd, title=Engineer, level=IC}, description=Coffee Before Trip, receiptAmount=9.00 USD, receiptDate=2025-04-30T10:00, itemsCount=2, refund=9.00 USD
+ReceiptExpense: employee={Employee: name=Blagoj, title=QA, level=IC}, description=Team Snack, receiptAmount=8.00 USD, receiptDate=2025-05-03T15:00, itemsCount=2, refund=8.00 USD
+ReceiptExpense: employee={Employee: name=Ana, title=Manager, level=M}, description=Small Office Snack, receiptAmount=7.00 USD, receiptDate=2025-05-08T10:00, itemsCount=2, refund=7.00 USD
+ReceiptExpense: employee={Employee: name=Stefan, title=TeamLead, level=M}, description=Timing Edge Case, receiptAmount=7.00 USD, receiptDate=2025-05-12T23:00, itemsCount=1, refund=7.00 USD
+ReceiptExpense: employee={Employee: name=Ivan, title=Manager, level=M}, description=Snack Overlap, receiptAmount=6.00 USD, receiptDate=2025-05-14T09:00, itemsCount=2, refund=6.00 USD
+ReceiptExpense: employee={Employee: name=Ana, title=Manager, level=M}, description=Drinks, receiptAmount=6.00 USD, receiptDate=2025-05-09T11:00, itemsCount=1, refund=6.00 USD
+ReceiptExpense: employee={Employee: name=Ivan, title=Manager, level=M}, description=Office Breakfast, receiptAmount=5.00 USD, receiptDate=2025-05-19T09:00, itemsCount=1, refund=5.00 USD
+ReceiptExpense: employee={Employee: name=Gorazd, title=Engineer, level=IC}, description=Groceries, receiptAmount=5.00 USD, receiptDate=2025-05-06T18:00, itemsCount=2, refund=5.00 USD
+ReceiptExpense: employee={Employee: name=Blagoj, title=QA, level=IC}, description=Office Coffee, receiptAmount=4.00 USD, receiptDate=2025-05-04T09:30, itemsCount=1, refund=4.00 USD
+ReceiptExpense: employee={Employee: name=Ivan, title=Manager, level=M}, description=Morning Coffee, receiptAmount=4.00 USD, receiptDate=2025-05-14T08:00, itemsCount=1, refund=4.00 USD
+ReceiptExpense: employee={Employee: name=Dejan, title=CTO, level=C}, description=Coffee Break, receiptAmount=4.00 USD, receiptDate=2025-05-27T10:00, itemsCount=1, refund=4.00 USD
+ReceiptExpense: employee={Employee: name=Blagoj, title=QA, level=IC}, description=Ice Cream, receiptAmount=3.00 USD, receiptDate=2025-05-07T14:00, itemsCount=1, refund=3.00 USD

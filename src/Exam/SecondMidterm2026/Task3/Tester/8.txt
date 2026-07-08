@@ -1,0 +1,11 @@
+INPUT:
+ADD_USER nick
+SUBSCRIBE_CATEGORY nick Technology
+SUBSCRIBE_AUTHOR nick JohnDoe
+PUBLISH Technology JohnDoe 2025-01-01T10:00 Cloud_Trends
+PRINT nick
+
+OUTPUT:
+News for user: nick
+[2025-01-01T10:00] JohnDoe - Technology
+Cloud_Trends

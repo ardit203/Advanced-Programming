@@ -1,0 +1,71 @@
+INPUT:
+10
+3001 Anna 10 50
+3002 Brian 9 15
+3003 Chloe 7 45
+3004 Daniel 6 22
+3005 Emma 3 5
+3006 Frank 8 35
+3007 Grace 5 40
+3008 Henry 10 10
+3009 Irene 4 20
+3010 Jake 2 55
+
+OUTPUT:
+Doctors that are treating:
+Anna (3001) 10 50 [Chief]
+Brian (3002) 9 15
+Chloe (3003) 7 45
+Daniel (3004) 6 22
+Emma (3005) 3 5
+Frank (3006) 8 35
+Grace (3007) 5 40
+Henry (3008) 10 10 [Chief]
+Irene (3009) 4 20
+Jake (3010) 2 55
+
+=== All Doctors ===
+Anna (3001) 10 50 [Chief]
+Brian (3002) 9 15
+Chloe (3003) 7 45
+Daniel (3004) 6 22
+Emma (3005) 3 5
+Frank (3006) 8 35
+Grace (3007) 5 40
+Henry (3008) 10 10 [Chief]
+Irene (3009) 4 20
+Jake (3010) 2 55
+
+=== Doctors with higher number of patients and a higher level of expertise ===
+Anna (3001) 10 50 [Chief]
+Chloe (3003) 7 45
+Frank (3006) 8 35
+
+=== Chief doctor (level = 10) ===
+Anna (3001) 10 50 [Chief]
+
+=== Increase all expertise levels by 1 (max 10) ===
+Anna (3001) 10 50 [Chief]
+Brian (3002) 10 15 [Chief]
+Chloe (3003) 8 45
+Daniel (3004) 7 22
+Emma (3005) 4 5
+Frank (3006) 9 35
+Grace (3007) 6 40
+Henry (3008) 10 10 [Chief]
+Irene (3009) 5 20
+Jake (3010) 3 55
+
+=== Increase the level of expertise of every doctor by 1 ===
+
+=== Map doctors to labels ===
+Name: Anna, Level: 10
+Name: Brian, Level: 10
+Name: Chloe, Level: 9
+Name: Daniel, Level: 7
+Name: Emma, Level: 4
+Name: Frank, Level: 10
+Name: Grace, Level: 7
+Name: Henry, Level: 10
+Name: Irene, Level: 5
+Name: Jake, Level: 4

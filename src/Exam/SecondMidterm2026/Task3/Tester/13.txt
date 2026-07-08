@@ -1,0 +1,16 @@
+INPUT:
+ADD_USER carol
+SUBSCRIBE_CATEGORY carol Business
+PUBLISH Business JohnDoe 2025-01-01T08:00 Market_Open
+SUBSCRIBE_AUTHOR carol AliceSmith
+PUBLISH Technology AliceSmith 2025-01-01T09:00 AI_Trends
+UNSUBSCRIBE_CATEGORY carol Business
+PUBLISH Business JohnDoe 2025-01-01T10:00 Market_Close
+PRINT carol
+
+OUTPUT:
+News for user: carol
+[2025-01-01T08:00] JohnDoe - Business
+Market_Open
+[2025-01-01T09:00] AliceSmith - Technology
+AI_Trends

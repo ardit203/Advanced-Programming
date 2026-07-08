@@ -1,0 +1,13 @@
+INPUT:
+500
+addTravelExpense;Alice;Engineer;IC;Berlin Conference Trip;350;2025-05-01T09:00;2025-05-05T19:00;DE
+addReceiptExpense;Alice;Engineer;IC;Lunch Meal;Starbucks;2025-04-29T13:00;Sandwich|food|8.5,Coffee|non-alcohol beverage|4.0
+addReceiptExpense;Bob;Manager;M;Dinner with Partner Company;Restaurant Roma;2025-05-02T20:15;Steak|food|45,Wine|alcohol beverage|30,Taxi|transport|15
+addTravelExpense;Charlie;CFO;C;Quarterly Europe Tour;1000;2025-05-10T08:00;2025-05-20T23:00;FR
+totalRefundsPerEmployee
+END
+
+OUTPUT:
+Charlie -> 1500.00
+Bob -> 90.00
+Alice -> 542.50

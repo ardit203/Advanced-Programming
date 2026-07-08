@@ -1,0 +1,14 @@
+INPUT:
+500
+addTravelExpense;Alice;Engineer;IC;Berlin Conference Trip;350;2025-05-01T09:00;2025-05-05T19:00;DE
+addReceiptExpense;Alice;Engineer;IC;Lunch Meal;Starbucks;2025-04-29T13:00;Sandwich|food|8.5,Coffee|non-alcohol beverage|4.0
+addReceiptExpense;Bob;Manager;M;Dinner with Partner Company;Restaurant Roma;2025-05-02T20:15;Steak|food|45,Wine|alcohol beverage|30,Taxi|transport|15
+addTravelExpense;Charlie;CFO;C;Quarterly Europe Tour;1000;2025-05-10T08:00;2025-05-20T23:00;FR
+printRefunds
+END
+
+OUTPUT:
+TravelExpense: employee={Employee: name=Charlie, title=CFO, level=C}, description=Quarterly Europe Tour, baseAmount=1000.00 USD, country=FR, start=2025-05-10T08:00, end=2025-05-20T23:00, refund=1500.00 USD
+TravelExpense: employee={Employee: name=Alice, title=Engineer, level=IC}, description=Berlin Conference Trip, baseAmount=350.00 USD, country=DE, start=2025-05-01T09:00, end=2025-05-05T19:00, refund=530.00 USD
+ReceiptExpense: employee={Employee: name=Bob, title=Manager, level=M}, description=Dinner with Partner Company, receiptAmount=90.00 USD, receiptDate=2025-05-02T20:15, itemsCount=3, refund=90.00 USD
+ReceiptExpense: employee={Employee: name=Alice, title=Engineer, level=IC}, description=Lunch Meal, receiptAmount=12.50 USD, receiptDate=2025-04-29T13:00, itemsCount=2, refund=12.50 USD

@@ -1,0 +1,38 @@
+INPUT:
+Korpa
+addUser 1 user1
+addAddress 1 HOME 47 42
+addAddress 1 WORK 18 45
+addUser 2 user2
+addAddress 2 HOME 24 10
+addAddress 2 WORK 21 12
+addUser 3 user3
+addAddress 3 HOME 47 11
+addAddress 3 WORK 8 16
+addUser 4 user4
+addAddress 4 HOME 5 31
+addAddress 4 WORK 45 5
+addUser 5 user5
+addAddress 5 HOME 10 35
+addAddress 5 WORK 28 6
+registerDeliveryPerson 1 driver1 21 42
+registerDeliveryPerson 2 driver2 40 39
+registerDeliveryPerson 3 driver3 30 13
+registerDeliveryPerson 4 driver4 26 5
+registerDeliveryPerson 5 driver5 43 28
+addRestaurant 1 restaurant1 35 26
+addRestaurant 2 restaurant2 38 8
+addRestaurant 3 restaurant3 39 28
+addRestaurant 4 restaurant4 27 36
+addRestaurant 5 restaurant5 32 7
+orderFood 4 HOME 2 358
+orderFood 2 HOME 4 1452
+orderFood 1 HOME 4 880
+printUsers
+
+OUTPUT:
+ID: 2 Name: user2 Total orders: 1 Total amount spent: 1452.00 Average amount spent: 1452.00
+ID: 1 Name: user1 Total orders: 1 Total amount spent: 880.00 Average amount spent: 880.00
+ID: 4 Name: user4 Total orders: 1 Total amount spent: 358.00 Average amount spent: 358.00
+ID: 5 Name: user5 Total orders: 0 Total amount spent: 0.00 Average amount spent: 0.00
+ID: 3 Name: user3 Total orders: 0 Total amount spent: 0.00 Average amount spent: 0.00

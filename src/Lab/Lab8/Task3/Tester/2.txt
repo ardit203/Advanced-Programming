@@ -1,0 +1,8 @@
+INPUT:
+room1,p1,ATTACK
+
+OUTPUT:
+[room1] RECEIVED: PlayerAction{playerId='p1', action=ATTACK}
+[room1] ATTACK IGNORED (not in room): p1
+[room1] FINAL PLAYERS:
+Game server stopped.

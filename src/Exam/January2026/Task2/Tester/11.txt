@@ -1,0 +1,9 @@
+INPUT:
+generalCheckup P1 V1
+addBloodTest V1
+addUltrasound V1
+addXRay V1
+END
+
+OUTPUT:
+X-ray allowed only after specialist examination

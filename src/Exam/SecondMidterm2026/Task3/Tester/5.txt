@@ -1,0 +1,12 @@
+INPUT:
+ADD_USER eva
+SUBSCRIBE_AUTHOR eva MartinFowler
+PUBLISH Technology MartinFowler 2025-01-01T07:00 Refactoring_Tips
+UNSUBSCRIBE_AUTHOR eva MartinFowler
+PUBLISH Technology MartinFowler 2025-01-01T08:00 Microservices
+PRINT eva
+
+OUTPUT:
+News for user: eva
+[2025-01-01T07:00] MartinFowler - Technology
+Refactoring_Tips

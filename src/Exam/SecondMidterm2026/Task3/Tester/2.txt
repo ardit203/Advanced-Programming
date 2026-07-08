@@ -1,0 +1,11 @@
+INPUT:
+ADD_USER bob
+SUBSCRIBE_AUTHOR bob AliceSmith
+PUBLISH Technology AliceSmith 2025-01-01T09:00 AI_in_Healthcare
+PUBLISH Technology JohnDoe 2025-01-01T10:00 Java_21_Features
+PRINT bob
+
+OUTPUT:
+News for user: bob
+[2025-01-01T09:00] AliceSmith - Technology
+AI_in_Healthcare

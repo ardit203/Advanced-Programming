@@ -1,0 +1,17 @@
+INPUT:
+generalCheckup P1 V1
+addXRay V1            // forbidden
+
+specialist P1 V2
+addXRay V2
+
+generalCheckup P1 V3
+
+generalCheckup P2 V4
+
+numberOfVisitsForPatient P1
+END
+
+OUTPUT:
+X-ray allowed only after specialist examination
+3

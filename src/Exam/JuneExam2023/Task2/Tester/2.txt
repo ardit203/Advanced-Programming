@@ -1,0 +1,50 @@
+INPUT:
+np.finki
+This is a test post for Advanced programming
+addComment;user2;0;Daughter part turn especially keep. Term month reflect entire involve. Ago whose stage model major yet sit local.
+addComment;user3;1;Rise walk time exist. Build customer manager partner note relate fear. Civil record expect we hour consider.
+addComment;user3;2;Low consumer would necessary international strategy. Population order program.
+addComment;user2;3;Possible government figure you already change color. Individual space government attorney.
+addComment;user2;4;Reach push girl. System not gas audience defense beyond huge my. Act within society relationship other understand.
+addComment;user1;5;Deep focus produce there. Close Republican tonight color feeling size accept sense. Glass rock play our minute perhaps ball offer.
+addComment;user3;6;College until his continue. Series should design article.
+addComment;user2;7;Hope off morning environment. Beautiful collection lose task. Eight listen different building.
+addComment;user3;8;And east street leave dream. Since son degree natural phone college. Real couple need next inside method difficult.
+addComment;user3;9;Card we appear campaign. Large another situation whether involve care authority. Receive receive whole coach.
+likes;0;0;0;0;0;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;3;3;3;4;4;4;4;4;4;4;4;4;5;5;5;5;5;5;6;6;6;7;7;8;8;8;8;8;8;9;9;9;9;9;9;9;9;9;9
+print
+
+OUTPUT:
+Post: This is a test post for Advanced programming
+Written by: np.finki
+Comments:
+        Comment: Card we appear campaign. Large another situation whether involve care authority. Receive receive whole coach.
+        Written by: user3
+        Likes: 10
+        Comment: Low consumer would necessary international strategy. Population order program.
+        Written by: user3
+        Likes: 9
+        Comment: Reach push girl. System not gas audience defense beyond huge my. Act within society relationship other understand.
+        Written by: user2
+        Likes: 9
+        Comment: Rise walk time exist. Build customer manager partner note relate fear. Civil record expect we hour consider.
+        Written by: user3
+        Likes: 7
+        Comment: Deep focus produce there. Close Republican tonight color feeling size accept sense. Glass rock play our minute perhaps ball offer.
+        Written by: user1
+        Likes: 6
+        Comment: And east street leave dream. Since son degree natural phone college. Real couple need next inside method difficult.
+        Written by: user3
+        Likes: 6
+        Comment: Daughter part turn especially keep. Term month reflect entire involve. Ago whose stage model major yet sit local.
+        Written by: user2
+        Likes: 5
+        Comment: Possible government figure you already change color. Individual space government attorney.
+        Written by: user2
+        Likes: 3
+        Comment: College until his continue. Series should design article.
+        Written by: user3
+        Likes: 3
+        Comment: Hope off morning environment. Beautiful collection lose task. Eight listen different building.
+        Written by: user2
+        Likes: 2

@@ -1,0 +1,13 @@
+INPUT:
+generalCheckup P1 V1
+addBloodTest V1
+specialist P1 V2
+addXRay V2
+generalCheckup P1 V3
+printVisits P1
+END
+
+OUTPUT:
+V2 | Specialist medical examination + X-ray | 3500
+V1 | General medical checkup + blood test | 2000
+V3 | General medical checkup | 1200

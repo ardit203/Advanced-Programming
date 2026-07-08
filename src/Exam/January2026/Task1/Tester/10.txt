@@ -1,0 +1,13 @@
+INPUT:
+ADD_PRODUCT P1 Mouse 25 4
+
+OPEN_BASKET B1 U1
+ADD_TO_BASKET B1 P1 2
+ADD_TO_BASKET B1 P1 3
+
+GET_PRODUCT P1
+
+END
+
+OUTPUT:
+Mouse | price=25 | available=2 | sold=0

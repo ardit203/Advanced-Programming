@@ -1,0 +1,15 @@
+INPUT:
+ADD_USER carol
+SUBSCRIBE_CATEGORY carol Science
+SUBSCRIBE_AUTHOR carol JohnDoe
+PUBLISH Science AliceSmith 2025-01-01T08:00 Space_Discovery
+PUBLISH Technology JohnDoe 2025-01-01T09:00 JVM_Internals
+PUBLISH Sports BobBrown 2025-01-01T10:00 Football_Results
+PRINT carol
+
+OUTPUT:
+News for user: carol
+[2025-01-01T08:00] AliceSmith - Science
+Space_Discovery
+[2025-01-01T09:00] JohnDoe - Technology
+JVM_Internals

@@ -1,0 +1,8 @@
+INPUT:
+specialist P5 V10
+addUltrasound V10
+totalCostForPatient P5
+END
+
+OUTPUT:
+3300.0

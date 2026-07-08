@@ -1,0 +1,9 @@
+INPUT:
+p1 PARIS:100
+p2 PARIS:200
+p3 PARIS:300
+---
+GROUP
+
+OUTPUT:
+Destination [PARIS] passengers [3]

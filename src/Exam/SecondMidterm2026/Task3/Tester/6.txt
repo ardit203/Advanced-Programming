@@ -1,0 +1,16 @@
+INPUT:
+ADD_USER frank
+SUBSCRIBE_CATEGORY frank Business
+PUBLISH Business JohnDoe 2025-01-01T12:00 Market_Closes
+PUBLISH Business JohnDoe 2025-01-01T09:00 Stocks_Open
+PUBLISH Business JohnDoe 2025-01-01T11:00 Midday_Update
+PRINT frank
+
+OUTPUT:
+News for user: frank
+[2025-01-01T09:00] JohnDoe - Business
+Stocks_Open
+[2025-01-01T11:00] JohnDoe - Business
+Midday_Update
+[2025-01-01T12:00] JohnDoe - Business
+Market_Closes

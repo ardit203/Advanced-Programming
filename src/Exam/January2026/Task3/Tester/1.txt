@@ -1,0 +1,13 @@
+INPUT:
+p1 PARIS:1200 ROME:800
+p2 LONDON:500 PARIS:200
+p3 ROME:900
+p4 PARIS:1500 LONDON:500
+---
+PRINT
+
+OUTPUT:
+Passenger [p1] totalMiles [2000] destinations [2]
+Passenger [p4] totalMiles [2000] destinations [2]
+Passenger [p3] totalMiles [900] destinations [1]
+Passenger [p2] totalMiles [700] destinations [2]

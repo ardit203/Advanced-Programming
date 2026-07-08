@@ -1,0 +1,8 @@
+INPUT:
+specialist P1 V1
+addXRay V1
+addXRay V1
+END
+
+OUTPUT:
+Diagnostic already added: XRay

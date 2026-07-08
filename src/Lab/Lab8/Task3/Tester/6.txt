@@ -1,0 +1,22 @@
+INPUT:
+room1,p1,JOIN_GAME
+room1,p2,JOIN_GAME
+room1,p1,ATTACK
+room1,p2,ATTACK
+room1,p2,ATTACK
+
+OUTPUT:
+[room1] RECEIVED: PlayerAction{playerId='p1', action=JOIN_GAME}
+[room1] RECEIVED: PlayerAction{playerId='p2', action=JOIN_GAME}
+[room1] RECEIVED: PlayerAction{playerId='p1', action=ATTACK}
+[room1] RECEIVED: PlayerAction{playerId='p2', action=ATTACK}
+[room1] RECEIVED: PlayerAction{playerId='p2', action=ATTACK}
+[room1] JOIN: p1
+[room1] JOIN: p2
+[room1] ATTACK: Player{id='p1', score=10}
+[room1] ATTACK: Player{id='p2', score=10}
+[room1] ATTACK: Player{id='p2', score=20}
+[room1] FINAL PLAYERS:
+  Player{id='p1', score=10}
+  Player{id='p2', score=20}
+Game server stopped.

@@ -1,0 +1,7 @@
+INPUT:
+ADD_USER oliver
+PUBLISH Sports BobBrown 2025-01-01T10:00 Match_Report
+PRINT oliver
+
+OUTPUT:
+News for user: oliver

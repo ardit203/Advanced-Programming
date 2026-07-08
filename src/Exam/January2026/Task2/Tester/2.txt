@@ -1,0 +1,13 @@
+INPUT:
+generalCheckup P1 V1
+addBloodTest V1
+specialist P1 V2
+addXRay V2
+addUltrasound V2
+generalCheckup P2 V3
+addUrineTest V3
+totalCostForPatient P1
+END
+
+OUTPUT:
+6800.0

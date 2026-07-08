@@ -1,0 +1,22 @@
+INPUT:
+ADD_USER frank
+SUBSCRIBE_CATEGORY frank Technology
+SUBSCRIBE_CATEGORY frank Science
+PUBLISH Technology JohnDoe 2025-01-01T07:00 Tech_A
+PUBLISH Science AliceSmith 2025-01-01T08:00 Sci_A
+PUBLISH Technology JohnDoe 2025-01-01T09:00 Tech_B
+UNSUBSCRIBE_CATEGORY frank Technology
+PUBLISH Technology JohnDoe 2025-01-01T10:00 Tech_C
+PUBLISH Science AliceSmith 2025-01-01T11:00 Sci_B
+PRINT frank
+
+OUTPUT:
+News for user: frank
+[2025-01-01T07:00] JohnDoe - Technology
+Tech_A
+[2025-01-01T08:00] AliceSmith - Science
+Sci_A
+[2025-01-01T09:00] JohnDoe - Technology
+Tech_B
+[2025-01-01T11:00] AliceSmith - Science
+Sci_B

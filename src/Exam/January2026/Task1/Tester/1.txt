@@ -1,0 +1,13 @@
+INPUT:
+ADD_PRODUCT P1 Laptop 1000 10
+ADD_PRODUCT P2 Mouse 50 20
+OPEN_BASKET B1 U1
+ADD_TO_BASKET B1 P1 2
+ADD_TO_BASKET B1 P2 5
+GET_PRODUCT P1
+GET_PRODUCT P2
+END
+
+OUTPUT:
+Laptop | price=1000 | available=8 | sold=0
+Mouse | price=50 | available=15 | sold=0

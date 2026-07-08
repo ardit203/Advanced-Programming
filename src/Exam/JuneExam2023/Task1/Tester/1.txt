@@ -1,0 +1,12 @@
+INPUT:
+Korpa
+addUser 1 stefan
+addRestaurant 1 Morino 2 4
+addAddress 1 doma 2 3
+registerDeliveryPerson 1 Petko 1 2
+registerDeliveryPerson 2 Riste 2 3
+orderFood 1 doma 1 450
+printUsers
+
+OUTPUT:
+ID: 1 Name: stefan Total orders: 1 Total amount spent: 450.00 Average amount spent: 450.00

@@ -1,0 +1,29 @@
+INPUT:
+2
+5
+3
+Hello world
+This is a secret document
+Do not share
+7
+4
+Decorator pattern is powerful
+It hides complexity
+But improves design
+Use wisely
+enableLineNumbers 5
+display 5
+enableLineNumbers 7
+display 7
+exit
+
+OUTPUT:
+=== Document 5 ===
+1: Hello world
+2: This is a secret document
+3: Do not share
+=== Document 7 ===
+1: Decorator pattern is powerful
+2: It hides complexity
+3: But improves design
+4: Use wisely

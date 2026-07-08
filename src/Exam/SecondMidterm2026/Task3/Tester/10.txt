@@ -1,0 +1,24 @@
+INPUT:
+ADD_USER user1
+ADD_USER user2
+SUBSCRIBE_CATEGORY user1 Technology
+SUBSCRIBE_AUTHOR user1 AliceSmith
+SUBSCRIBE_CATEGORY user2 Sports
+PUBLISH Technology AliceSmith 2025-01-01T08:00 AI_News
+PUBLISH Technology JohnDoe 2025-01-01T09:00 Java_Update
+PUBLISH Sports BobBrown 2025-01-01T10:00 Championship
+PUBLISH Science AliceSmith 2025-01-01T11:00 Quantum_Breakthrough
+PRINT user1
+PRINT user2
+
+OUTPUT:
+News for user: user1
+[2025-01-01T08:00] AliceSmith - Technology
+AI_News
+[2025-01-01T09:00] JohnDoe - Technology
+Java_Update
+[2025-01-01T11:00] AliceSmith - Science
+Quantum_Breakthrough
+News for user: user2
+[2025-01-01T10:00] BobBrown - Sports
+Championship

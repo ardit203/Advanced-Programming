@@ -1,0 +1,14 @@
+INPUT:
+ADD_USER david
+SUBSCRIBE_CATEGORY david Sports
+UNSUBSCRIBE_CATEGORY david Sports
+SUBSCRIBE_CATEGORY david Sports
+PUBLISH Sports BobBrown 2025-01-01T09:00 Match_Review
+UNSUBSCRIBE_CATEGORY david Sports
+PUBLISH Sports BobBrown 2025-01-01T10:00 Injury_Report
+PRINT david
+
+OUTPUT:
+News for user: david
+[2025-01-01T09:00] BobBrown - Sports
+Match_Review

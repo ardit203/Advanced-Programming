@@ -1,0 +1,18 @@
+INPUT:
+ADD photos/2024/01/a.jpg
+ADD photos/2024/01/b.jpg
+ADD photos/2024/02/c.jpg
+ADD docs/readme.md
+PRINT
+
+OUTPUT:
+bucket/
+    photos/
+        2024/
+            01/
+                a.jpg
+                b.jpg
+            02/
+                c.jpg
+    docs/
+        readme.md

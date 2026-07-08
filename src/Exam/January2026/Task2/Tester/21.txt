@@ -1,0 +1,18 @@
+INPUT:
+generalCheckup P1 V1
+addXRay V1            // forbidden
+
+specialist P1 V2
+addXRay V2
+addXRay V2            // duplicate
+
+generalCheckup P2 V3
+addBloodTest V3
+
+averageVisitCost
+END
+
+OUTPUT:
+X-ray allowed only after specialist examination
+Diagnostic already added: XRay
+2233.3333333333335

@@ -1,0 +1,16 @@
+INPUT:
+ADD_USER bob
+SUBSCRIBE_AUTHOR bob MartinFowler
+PUBLISH Technology MartinFowler 2025-01-01T07:00 Refactoring
+UNSUBSCRIBE_AUTHOR bob MartinFowler
+PUBLISH Technology MartinFowler 2025-01-01T08:00 Clean_Code
+SUBSCRIBE_AUTHOR bob MartinFowler
+PUBLISH Technology MartinFowler 2025-01-01T09:00 Design_Patterns
+PRINT bob
+
+OUTPUT:
+News for user: bob
+[2025-01-01T07:00] MartinFowler - Technology
+Refactoring
+[2025-01-01T09:00] MartinFowler - Technology
+Design_Patterns

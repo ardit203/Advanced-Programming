@@ -1,0 +1,30 @@
+INPUT:
+np.finki
+This is a test post for Advanced programming
+addComment;user2;0;Time claim water hand career we drug. Purpose size recently reveal usually door majority magazine. As nice real director politics will.
+addComment;user2;1;Nice class window call somebody still structure record. Center near general. True spring floor film business data fund. Popular page summer argue present to.;0
+addComment;user2;2;Opportunity radio trouble fill. Media hair rock leave any water practice. Pattern many tax specific light size sign cover.;1
+addComment;user3;3;White develop side enter human body relationship. Son reality administration professional.;2
+addComment;user1;4;Anything all consider find stage point minute four. Page now more.;3
+likes;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;3;3;3;3;3;3;4;4;4;4;4;4;4;4;4
+print
+
+OUTPUT:
+Post: This is a test post for Advanced programming
+Written by: np.finki
+Comments:
+        Comment: Time claim water hand career we drug. Purpose size recently reveal usually door majority magazine. As nice real director politics will.
+        Written by: user2
+        Likes: 10
+            Comment: Nice class window call somebody still structure record. Center near general. True spring floor film business data fund. Popular page summer argue present to.
+            Written by: user2
+            Likes: 6
+                Comment: Opportunity radio trouble fill. Media hair rock leave any water practice. Pattern many tax specific light size sign cover.
+                Written by: user2
+                Likes: 9
+                    Comment: White develop side enter human body relationship. Son reality administration professional.
+                    Written by: user3
+                    Likes: 6
+                        Comment: Anything all consider find stage point minute four. Page now more.
+                        Written by: user1
+                        Likes: 9

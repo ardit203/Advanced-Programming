@@ -1,0 +1,12 @@
+INPUT:
+generalCheckup P1 V1
+addBloodTest V1
+specialist P1 V2
+addXRay V2
+generalCheckup P2 V3
+addUrineTest V3
+averageVisitCost
+END
+
+OUTPUT:
+2400.0

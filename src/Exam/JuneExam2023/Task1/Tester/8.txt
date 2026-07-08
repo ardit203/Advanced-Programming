@@ -1,0 +1,55 @@
+INPUT:
+Korpa
+addUser 1 user1
+addAddress 1 HOME 11 8
+addAddress 1 WORK 16 50
+addUser 2 user2
+addAddress 2 HOME 47 8
+addAddress 2 WORK 43 9
+addUser 3 user3
+addAddress 3 HOME 26 36
+addAddress 3 WORK 15 7
+addUser 4 user4
+addAddress 4 HOME 26 19
+addAddress 4 WORK 41 18
+addUser 5 user5
+addAddress 5 HOME 32 30
+addAddress 5 WORK 11 50
+registerDeliveryPerson 1 driver1 34 7
+registerDeliveryPerson 2 driver2 36 27
+registerDeliveryPerson 3 driver3 39 16
+registerDeliveryPerson 4 driver4 20 39
+registerDeliveryPerson 5 driver5 43 49
+addRestaurant 1 restaurant1 8 23
+addRestaurant 2 restaurant2 30 45
+addRestaurant 3 restaurant3 47 34
+addRestaurant 4 restaurant4 8 18
+addRestaurant 5 restaurant5 28 13
+orderFood 5 WORK 3 1013
+orderFood 4 WORK 4 746
+orderFood 2 WORK 5 1064
+orderFood 2 WORK 3 1102
+orderFood 2 WORK 4 1909
+orderFood 2 HOME 4 340
+orderFood 1 HOME 1 679
+orderFood 1 HOME 2 478
+orderFood 3 WORK 5 1183
+orderFood 3 WORK 3 914
+orderFood 5 WORK 4 1910
+orderFood 2 HOME 4 1455
+orderFood 4 WORK 1 944
+orderFood 2 HOME 3 1233
+orderFood 2 WORK 1 933
+orderFood 2 HOME 4 911
+orderFood 1 HOME 1 724
+orderFood 4 WORK 2 987
+orderFood 5 WORK 3 1660
+orderFood 2 HOME 2 1978
+printRestaurants
+
+OUTPUT:
+ID: 4 Name: restaurant4 Total orders: 6 Total amount earned: 7271.00 Average amount earned: 1211.83
+ID: 3 Name: restaurant3 Total orders: 5 Total amount earned: 5922.00 Average amount earned: 1184.40
+ID: 2 Name: restaurant2 Total orders: 3 Total amount earned: 3443.00 Average amount earned: 1147.67
+ID: 5 Name: restaurant5 Total orders: 2 Total amount earned: 2247.00 Average amount earned: 1123.50
+ID: 1 Name: restaurant1 Total orders: 4 Total amount earned: 3280.00 Average amount earned: 820.00

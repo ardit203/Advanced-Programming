@@ -1,0 +1,27 @@
+INPUT:
+13
+CREATE_LIST JAVA
+CREATE_LIST PYTHON
+ADD_USER JAVA NORMAL Helen helen@finki.mk
+ADD_USER PYTHON NORMAL Helen helen@finki.mk
+ADD_USER JAVA ADMIN AdminJava adminjava@finki.mk
+ADD_USER PYTHON ADMIN AdminPython adminpython@finki.mk
+ADD_USER JAVA FILTERED Ian ian@finki.mk exam
+ADD_USER PYTHON FILTERED Ian ian@finki.mk assignment
+PUBLISH JAVA New Java lab available
+PUBLISH PYTHON Python assignment posted
+REMOVE_USER JAVA helen@finki.mk
+PUBLISH JAVA Java final exam
+PUBLISH PYTHON Python final exam
+
+OUTPUT:
+[USER] Helen received email from JAVA: New Java lab available
+[ADMIN LOG] MailingList=JAVA | Message=New Java lab available
+[USER] Helen received email from PYTHON: Python assignment posted
+[ADMIN LOG] MailingList=PYTHON | Message=Python assignment posted
+[FILTERED USER] Ian received filtered email from PYTHON: Python assignment posted
+[USER] Helen received email from JAVA: Java final exam
+[ADMIN LOG] MailingList=JAVA | Message=Java final exam
+[FILTERED USER] Ian received filtered email from JAVA: Java final exam
+[USER] Helen received email from PYTHON: Python final exam
+[ADMIN LOG] MailingList=PYTHON | Message=Python final exam

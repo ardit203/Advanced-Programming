@@ -1,0 +1,15 @@
+INPUT:
+ADD stefan.txt
+ADD ana.txt
+ADD gjorgji.txt
+ADD dejan.txt
+ADD ivan.txt
+PRINT
+
+OUTPUT:
+bucket/
+    stefan.txt
+    ana.txt
+    gjorgji.txt
+    dejan.txt
+    ivan.txt

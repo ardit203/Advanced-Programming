@@ -1,0 +1,7 @@
+INPUT:
+solo TOKYO:0
+---
+PRINT
+
+OUTPUT:
+Passenger [solo] totalMiles [0] destinations [1]

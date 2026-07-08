@@ -1,0 +1,13 @@
+INPUT:
+ADD test/test2/test3/stefan.txt
+PRINT
+REMOVE test/test2/test3/stefan.txt
+PRINT
+
+OUTPUT:
+bucket/
+    test/
+        test2/
+            test3/
+                stefan.txt
+bucket/

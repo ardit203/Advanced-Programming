@@ -1,0 +1,8 @@
+INPUT:
+generalCheckup P1 V1
+addBloodTest V1
+addBloodTest V1
+END
+
+OUTPUT:
+Diagnostic already added: Blood

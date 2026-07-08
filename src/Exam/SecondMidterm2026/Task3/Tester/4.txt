@@ -1,0 +1,12 @@
+INPUT:
+ADD_USER david
+SUBSCRIBE_CATEGORY david Health
+PUBLISH Health JaneMiller 2025-01-01T08:00 New_Vaccine
+UNSUBSCRIBE_CATEGORY david Health
+PUBLISH Health JaneMiller 2025-01-01T09:00 Health_Conference
+PRINT david
+
+OUTPUT:
+News for user: david
+[2025-01-01T08:00] JaneMiller - Health
+New_Vaccine

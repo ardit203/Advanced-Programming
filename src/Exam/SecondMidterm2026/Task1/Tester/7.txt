@@ -1,0 +1,20 @@
+INPUT:
+ADD root.txt
+ADD folder/file.txt
+ADD folder/subfolder/data.bin
+PRINT
+REMOVE folder/file.txt
+PRINT
+
+OUTPUT:
+bucket/
+    root.txt
+    folder/
+        file.txt
+        subfolder/
+            data.bin
+bucket/
+    root.txt
+    folder/
+        subfolder/
+            data.bin

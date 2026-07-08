@@ -1,0 +1,19 @@
+INPUT:
+generalCheckup P1 V1
+addXRay V1            // forbidden
+
+specialist P1 V2
+addXRay V2
+addUltrasound V2
+
+generalCheckup P1 V3
+addBloodTest V3
+
+printVisits P1
+END
+
+OUTPUT:
+X-ray allowed only after specialist examination
+V2 | Specialist medical examination + X-ray + ultrasound | 4800
+V3 | General medical checkup + blood test | 2000
+V1 | General medical checkup | 1200

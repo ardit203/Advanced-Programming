@@ -1,0 +1,30 @@
+INPUT:
+room1,p1,JOIN_GAME
+room2,p2,JOIN_GAME
+room1,p1,ATTACK
+room2,p2,ATTACK
+room1,p1,ATTACK
+room2,p2,LEAVE_GAME
+room1,p1,LEAVE_GAME
+room2,p2,ATTACK
+
+OUTPUT:
+[room1] RECEIVED: PlayerAction{playerId='p1', action=JOIN_GAME}
+[room2] RECEIVED: PlayerAction{playerId='p2', action=JOIN_GAME}
+[room1] RECEIVED: PlayerAction{playerId='p1', action=ATTACK}
+[room2] RECEIVED: PlayerAction{playerId='p2', action=ATTACK}
+[room1] RECEIVED: PlayerAction{playerId='p1', action=ATTACK}
+[room2] RECEIVED: PlayerAction{playerId='p2', action=LEAVE_GAME}
+[room1] RECEIVED: PlayerAction{playerId='p1', action=LEAVE_GAME}
+[room2] RECEIVED: PlayerAction{playerId='p2', action=ATTACK}
+[room2] JOIN: p2
+[room1] JOIN: p1
+[room2] ATTACK: Player{id='p2', score=10}
+[room1] ATTACK: Player{id='p1', score=10}
+[room1] ATTACK: Player{id='p1', score=20}
+[room2] LEAVE: p2
+[room1] LEAVE: p1
+[room2] ATTACK IGNORED (not in room): p2
+[room1] FINAL PLAYERS:
+[room2] FINAL PLAYERS:
+Game server stopped.

@@ -1,0 +1,8 @@
+INPUT:
+room1,p1,LEAVE_GAME
+
+OUTPUT:
+[room1] RECEIVED: PlayerAction{playerId='p1', action=LEAVE_GAME}
+[room1] LEAVE IGNORED (not in room): p1
+[room1] FINAL PLAYERS:
+Game server stopped.

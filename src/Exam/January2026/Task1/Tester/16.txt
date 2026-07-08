@@ -1,0 +1,8 @@
+INPUT:
+ADD_PRODUCT P1 SSD 150 1000
+CONCURRENT_VERIFY 8 500 P1
+END
+
+OUTPUT:
+PASS ✅: state is consistent
+--------------------------------

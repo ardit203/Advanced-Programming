@@ -1,0 +1,13 @@
+INPUT:
+ADD root.txt
+ADD folder/file.txt
+ADD folder/subfolder/data.bin
+PRINT
+
+OUTPUT:
+bucket/
+    root.txt
+    folder/
+        file.txt
+        subfolder/
+            data.bin

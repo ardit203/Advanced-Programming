@@ -1,0 +1,29 @@
+INPUT:
+2
+5
+3
+Hello world
+This is a secret document
+Do not share
+7
+4
+Decorator pattern is powerful
+It hides complexity
+But improves design
+Use wisely
+enableRedaction 5 secret share
+display 5
+enableRedaction 7 Decorator design
+display 7
+exit
+
+OUTPUT:
+=== Document 5 ===
+Hello world
+This is a * document
+Do not *
+=== Document 7 ===
+* pattern is powerful
+It hides complexity
+But improves *
+Use wisely

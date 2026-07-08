@@ -1,0 +1,8 @@
+INPUT:
+50
+addReceiptExpense;John;Developer;IC;Big Dinner;La Piazza;2025-05-03T19:30;Pizza|food|22,Wine|alcohol beverage|15,Dessert|food|15
+printRefunds
+END
+
+OUTPUT:
+Receipt with amount 52.00 exceeds the max allowed amount for receipt expense 50.00

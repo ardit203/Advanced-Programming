@@ -1,0 +1,28 @@
+INPUT:
+ADD docs/2024/exam1.pdf
+ADD docs/2024/exam2.pdf
+ADD docs/2023/notes.txt
+PRINT
+REMOVE docs/2024/exam1.pdf
+PRINT
+REMOVE docs/2024/exam2.pdf
+PRINT
+
+OUTPUT:
+bucket/
+    docs/
+        2024/
+            exam1.pdf
+            exam2.pdf
+        2023/
+            notes.txt
+bucket/
+    docs/
+        2024/
+            exam2.pdf
+        2023/
+            notes.txt
+bucket/
+    docs/
+        2023/
+            notes.txt

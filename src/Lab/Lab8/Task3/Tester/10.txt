@@ -1,0 +1,39 @@
+INPUT:
+roomA,p1,ATTACK
+roomA,p1,JOIN_GAME
+roomA,p1,JOIN_GAME
+roomA,p1,ATTACK
+roomA,p2,JOIN_GAME
+roomA,p2,ATTACK
+roomB,p3,JOIN_GAME
+roomB,p3,LEAVE_GAME
+roomB,p3,ATTACK
+roomA,p1,LEAVE_GAME
+roomA,p2,LEAVE_GAME
+
+OUTPUT:
+[roomA] RECEIVED: PlayerAction{playerId='p1', action=ATTACK}
+[roomA] RECEIVED: PlayerAction{playerId='p1', action=JOIN_GAME}
+[roomA] RECEIVED: PlayerAction{playerId='p1', action=JOIN_GAME}
+[roomA] RECEIVED: PlayerAction{playerId='p1', action=ATTACK}
+[roomA] RECEIVED: PlayerAction{playerId='p2', action=JOIN_GAME}
+[roomA] RECEIVED: PlayerAction{playerId='p2', action=ATTACK}
+[roomB] RECEIVED: PlayerAction{playerId='p3', action=JOIN_GAME}
+[roomB] RECEIVED: PlayerAction{playerId='p3', action=LEAVE_GAME}
+[roomB] RECEIVED: PlayerAction{playerId='p3', action=ATTACK}
+[roomA] RECEIVED: PlayerAction{playerId='p1', action=LEAVE_GAME}
+[roomA] RECEIVED: PlayerAction{playerId='p2', action=LEAVE_GAME}
+[roomA] ATTACK IGNORED (not in room): p1
+[roomB] JOIN: p3
+[roomA] JOIN: p1
+[roomA] JOIN: p1
+[roomB] LEAVE: p3
+[roomB] ATTACK IGNORED (not in room): p3
+[roomA] ATTACK: Player{id='p1', score=10}
+[roomA] JOIN: p2
+[roomA] ATTACK: Player{id='p2', score=10}
+[roomA] LEAVE: p1
+[roomA] LEAVE: p2
+[roomA] FINAL PLAYERS:
+[roomB] FINAL PLAYERS:
+Game server stopped.

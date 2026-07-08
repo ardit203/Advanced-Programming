@@ -1,0 +1,10 @@
+INPUT:
+500
+addTravelExpense;Alice;Engineer;IC;Business Trip to Rome;300;2025-05-01T09:00;2025-05-05T18:00;IT
+addReceiptExpense;Alice;Engineer;IC;Hotel Breakfast;Hilton;2025-05-03T08:00;Breakfast|food|12,Coffee|non-alcohol beverage|4
+printRefunds
+END
+
+OUTPUT:
+You cannot add receipt expense in the same period during an approved travel expense.
+TravelExpense: employee={Employee: name=Alice, title=Engineer, level=IC}, description=Business Trip to Rome, baseAmount=300.00 USD, country=IT, start=2025-05-01T09:00, end=2025-05-05T18:00, refund=460.00 USD
